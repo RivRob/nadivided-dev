@@ -51,8 +51,12 @@ If you encounter any issues:
    - Game version and mod version
    - Screenshots if applicable
 
-## ⚠️ Disclaimer
+## ⚠️ Disclaimers
 
-Please ask before taking code.
+###### Copyrights
+
+This is open source project. However, please contact the developer team if you wish to use the code for your project! We will happily allow the use of our content within reason.
+Copyright (c) 2024 BattleSkorpion
+
 
 This is a fan-made modification for Hearts of Iron IV. It is not affiliated with or endorsed by Paradox Interactive. Hearts of Iron IV is a trademark of Paradox Interactive AB.
