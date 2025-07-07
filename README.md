@@ -2,6 +2,8 @@
 
 An alternate history mod for Hearts of Iron IV
 
+![(missing image) /thumnail.png](https://github.com/BattleSkorpion/nadivided-dev/blob/master/thumbnail.png?raw=true "North America Divided Icon")
+
 ## 📖 Description
 
 North America Divided (NAD) is an alternate history modification for Hearts of Iron IV set in an alternate 1936. Following the Great Depression and the Second Great War, the traditional powerhouses of North America - the United States, Canada, and Mexico - have collapsed into fragmented successor states. 
