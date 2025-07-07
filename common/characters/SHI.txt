@@ -104,7 +104,6 @@ characters={
 			defense_skill=2
 			planning_skill=3
 			logistics_skill=3
-			legacy_id=107
 		}
 		advisor={
 			slot = army_chief
@@ -113,7 +112,7 @@ characters={
 				original_tag = SHI
 			}
 			traits = {
-				army_regrouping_2
+				army_chief_offensive_2
 			}
 			cost = 100
 			ai_will_do = {
@@ -125,10 +124,8 @@ characters={
 		name="Walter Short"
 		portraits={
 			army={
-				small=""
-			}
-			army={
 				large="gfx/leaders/SHI/portrait_walter_short.dds"
+				# TODO: small
 			}
 		}
 		corps_commander={

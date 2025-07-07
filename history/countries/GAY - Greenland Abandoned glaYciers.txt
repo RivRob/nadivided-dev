@@ -1,4 +1,4 @@
-capital = 243
+capital = 645
 
 set_research_slots = 0
 
@@ -8,6 +8,9 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+ add_ideas = {
+	GAY_frozen_wasteland
+ }
 set_popularities = {
 	democratic = 0
 	fascism = 0
@@ -15,12 +18,11 @@ set_popularities = {
 	neutrality = 100
 }
 
-create_country_leader = {
-	
-	name = "Inuit Communities"
-	picture = "portrait_igloo.dds"
-	expire = "1970.1.1"
-	ideology = anarchism
-	traits = {	
-	}
-}
+recruit_character = Inuit_anarchism
+recruit_character = Inuit_communism
+recruit_character = Inuit_democracy
+recruit_character = Inuit_fascism
+recruit_character = Inuit_populism
+recruit_character = Inuit_socialism
+
+add_nuclear_bombs = 1

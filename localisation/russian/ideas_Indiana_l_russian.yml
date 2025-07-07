@@ -1,20 +1,50 @@
 ﻿l_russian:
-
-  SIN_Conscientious_Objectors:0 "Conscientious Objectors" 
-  SIN_Conscientious_Objectors_desc:0 "The Church of God, based in Anderson, has a strong pacifist element we must silence these cowards" 
-
-  SIN_Quaker_Recruitment:0 "Quaker Recruitment" 
-  SIN_Quaker_Recruitment_desc:0 "Quakers, with a strong base near Richmond Will fight if we can convince them our cause is just" 
-
-  SIN_Last_Stand:0 "Last Stand" 
-  SIN_Last_Stand_desc:0 "Invaders Must Pay, with cuts on barbed wire. With our booby trap campaign we will make them pay for every unturned stone" 
-
-  SIN_Rifle_behindeverybladeofgrass:0 "Rifle Behind Every Blade of Grass" 
-  SIN_Rifle_behindeverybladeofgrass_desc:0 "Call up the Hoosiers" 
-
-  SIN_Stolen_Fords_Licence:0 "Stolen Ford's Licences" 
-  SIN_Stolen_Fords_Licence_desc:0 "With fords plans we can build the ulitmate armored car" 
-
-  SIN_Indiana_Corps:0 "Indiana Corps" 
-  SIN_Indiana_Corps_desc:0 "Indianapolis will not fall" 
-
+ ABILITY_TOOLTIP_NAME: "$NAME|H$"
+  
+ SIN_sin_what_gop: "Что за Стар' Партия?"
+ sin_what_gop_desc: "Хотя Клан частично сохранил за собой звание Великой Старой Партии, несомненно, что РП была поглощена Ку-Клукс-Кланом в 1934 году. Последний "истинный" остаток старой партии теперь находится в руках "либеральной" коалиции Эдварда Джексона, как всего лишь фрагмент своей прежней сущности."
+  
+ SIN_sin_segregation: "Жесткая Расовая Сегрегация"
+ sin_segregation_desc: "Как и ожидалось, Клан строго следует своей программе и ввел полную сегрегацию по всему штату, в то время как насилие над Чернокожими продолжает поощряться во многих сообществах, несмотря на очевидный нейтралитет Имперских Волшебников в отношении расового насилия. Как и следовало ожидать, негры не приняли новых владык, и против Ку-Клукс-Клана сформировались довольно крупные боевые силы. Либеральные фракции Ку-Клукс-Клана также стали подозрительными, их маска может сползти, и это может выдать их предполагаемое снисходительное отношение к гражданским правам. Расовый вопрос должен быть решен, даже если это означает, что любой ценой."
+  
+ sin_fire_up_factories: "Цепи Рабочих"
+ sin_fire_up_factories_desc: "#"
+  
+ ### EDU Ideas 
+ sin_declining_education: "Глупые Люди, Глупая Нация"
+ sin_declining_education_desc: "С тех пор, как Америку потрясла Великая депрессия, нежелание предыдущего федерального правительства должным образом и эффективно финансировать высшее образование привело к резкому снижению уровня образования. С распадом Североамериканского союза кризис продолжает усиливаться, поскольку те, кого мы призвали управлять новой республикой, не смогли должным образом справиться с ситуацией."
+  
+ sin_declining_education_2: "Глупые Люди, Глупая Нация"
+ sin_declining_education_2_desc: "С тех пор, как Америку потрясла Великая депрессия, нежелание предыдущего федерального правительства должным образом и эффективно финансировать высшее образование привело к резкому снижению уровня образования. С распадом Североамериканского союза кризис продолжает усиливаться, поскольку те, кого мы призвали управлять новой республикой, не смогли должным образом справиться с ситуацией."
+  
+ sin_declining_education_3: "Глупые Люди, Глупая Нация"
+ sin_declining_education_3_desc: "С тех пор, как Америку потрясла Великая депрессия, нежелание предыдущего федерального правительства должным образом и эффективно финансировать высшее образование привело к резкому снижению уровня образования. С распадом Североамериканского союза кризис продолжает усиливаться, поскольку те, кого мы призвали управлять новой республикой, не смогли должным образом справиться с ситуацией."
+  
+ ### ### ### 
+  
+  
+ sin_steel_syndicate: "Стальной Синдикат"
+ sin_steel_syndicate_desc: "что-то о том, как О'бэнион пережил свое убийство и захватил подполье северной индии, не знаю. еще не добрался до этого, пожалуйста, не локализуйте пока на русский или что-то еще."
+     ### People's Republic Stuff ### 
+  
+ SIN_sin_red_flame: "Красная Река Посередине"
+ sin_red_flame_desc: "пока не знаю, что с этим делать"
+  
+ SIN_Conscientious_Objectors: "Отказники по Соображениям Совести"
+ SIN_Conscientious_Objectors_desc: "Церковь Бога, расположенная в Андерсоне, имеет сильный пацифистский элемент, мы должны заставить замолчать этих трусов"
+  
+ SIN_Quaker_Recruitment: "Вербовка Квакеров"
+ SIN_Quaker_Recruitment_desc: "Квакеры, имеющие сильную базу вблизи Ричмонда, будут сражаться, если мы сможем убедить их в справедливости нашего дела"
+  
+ SIN_Last_Stand: "Последний Рубеж"
+ SIN_Last_Stand_desc: "Захватчики должны платить, с порезами на колючей проволоке. С помощью нашей кампании по установке мин-ловушек мы заставим их заплатить за каждый неперевернутый камень"
+  
+ SIN_Rifle_behindeverybladeofgrass: "Винтовка за Каждой Травинкой"
+ SIN_Rifle_behindeverybladeofgrass_desc: "Вызвать Гусей"
+  
+ SIN_Stolen_Fords_Licence: "Украденные Лицензии Ford"
+ SIN_Stolen_Fords_Licence_desc: "С планами Форда мы сможем построить идеальный броневик"
+  
+ SIN_Indiana_Corps: "Корпус Индианы"
+ SIN_Indiana_Corps_desc: "Индианаполис не падет"
+  

@@ -6,7 +6,9 @@ set_technology = {
 	tech_support = 1		
 	tech_recon = 1
 	tech_engineers = 1
+	tech_trucks = 1
 	motorised_infantry = 1
+	gw_artillery = 1
 	early_fighter = 1
 	fuel_silos = 1
 	fuel_refining = 1
@@ -24,13 +26,17 @@ set_popularities = {
 	democratic = 10
 	progressivism = 10
 	communism = 35
-	fascism = 5
-	neutrality = 40
+	fascism = 15
+	neutrality = 30
 }
 
 add_ideas = {
-	developed_economic_capacity
+	advanced_production_centers
 	SIL_chicago_auto_industry
 }
-
+ ### LEADERS
 recruit_character = CHI_lightfoot
+recruit_character = CHI_al
+### GENERALS
+recruit_character = CHI_lightfoot_general
+recruit_character = CHI_general_william_oderaka

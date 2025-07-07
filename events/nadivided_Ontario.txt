@@ -33,7 +33,12 @@ country_event = {
 	}
 	option = {
 		name = Ontario.1.a
-	
+		PON = {
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.05
+			}
+		}
 	}
 
 }
@@ -52,7 +57,22 @@ country_event = {
 	}
 	option = {
 		name = Ontario.3.a
-	
+		add_timed_idea = {
+			idea = PON_Swastika_clubs
+			days = 900
+		}
+		complete_national_focus = PON_Back_Swastica_clubs
+		add_political_power = 150 # get an advisor you dummy
+	}
+
+	option = {
+		name = Ontario.3.b
+		add_timed_idea = {
+			idea = PON_union_marches
+			days = 900
+		}
+		complete_national_focus = PON_Back_Ontario_Unionists
+		add_political_power = 150
 	}
 }
 
@@ -90,7 +110,56 @@ country_event = {
 	}
 	option = {
 		name = Ontario.5.a
-	
+		PON = {
+			country_event = {
+				id = Ontario.14
+			}
+		}
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.1
+		}
+		PON = {
+			complete_national_focus = PON_ReElect_constravatives
+		}
+	}
+
+	option = {
+		name = Ontario.5.b
+		PON = {
+			country_event = {
+				id = Ontario.15
+			}
+		}
+		set_politics = {
+			ruling_party = longism
+			elections_allowed = yes
+		}
+		add_popularity = {
+			ideology = longism
+			popularity = 0.15
+		}
+		PON = {
+			complete_national_focus = PON_Elect_J_S_Woodsworth
+		}
+	}
+
+	option = {
+		name = Ontario.5.c
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.15
+		}
+		add_timed_idea = {
+			idea = PON_Grand_Orange_Lodge_of_British_America
+			days = 900
+		}
+		PON = {
+			country_event = {
+				id = Ontario.17
+			}
+		}
+		complete_national_focus = PON_James_Simpson
 	}
 }
 
@@ -234,7 +303,10 @@ country_event = {
 	}
 	option = {
 		name = Ontario.13.a
-	
+		add_popularity = {
+			ideology = fascism
+			popularity = -0.05
+		}
 	}
 }
 
@@ -426,22 +498,22 @@ news_event = {
 	}
 }
 
-#news_event = {
-	id = Ontario.24 #detroit
-	title = Ontario.24.t
-	desc = Ontario.24.d
-	picture = GFX_ontario24
-	fire_only_once = yes
-	is_triggered_only = yes
+# #news_event = {
+# 	id = Ontario.24 #detroit
+# 	title = Ontario.24.t
+# 	desc = Ontario.24.d
+# 	picture = GFX_ontario24
+# 	fire_only_once = yes
+# 	is_triggered_only = yes
 
-#	trigger = {
-#	tag = PON
-#		338 = { is_controlled_by = PON }
-#		
-#		PON = { has_war_with = PSK }
-#	}
-#	option = {
-#		name = Ontario.24.a
-#	
-#	}
-#}
+# #	trigger = {
+# #	tag = PON
+# #		338 = { is_controlled_by = PON }
+# #		
+# #		PON = { has_war_with = PSK }
+# #	}
+# #	option = {
+# #		name = Ontario.24.a
+# #	
+# #	}
+# #}

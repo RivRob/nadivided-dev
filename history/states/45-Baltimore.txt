@@ -24,12 +24,6 @@ state={
 		victory_points = {
 			1948 30 
 		}
-		victory_points = {
-			5129 18 
-		}
-		victory_points = {
-			3900 19 
-		}
 		add_core_of = SMD
 		1936.1.2 = {
 			owner = USA
@@ -39,11 +33,13 @@ state={
 	}
 
 	provinces={
-		1948 3422 3900 3904 5129 8284 8285 8287 
+		1948
 	}
-	manpower=717000
+	# 1930	804,874	+9.7%
+	# 1940	859,100	+6.7%
+	manpower=817000
 	buildings_max_level_factor=1.000
 	state_category=metropolis
 
-	local_supplies=0.0 
+	local_supplies=10.000
 }

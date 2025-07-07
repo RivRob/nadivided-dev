@@ -33,7 +33,11 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			
+			visible = {
+				NOT = {
+					has_country_flag = exiles_invited
+				}
+			}
 			available = {
 				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
 			}
@@ -59,7 +63,11 @@ ideas = {
 				NOT = { has_idea = undisturbed_isolation }
 				NOT = { has_idea = isolation }
 			}
-
+			visible = {
+				NOT = {
+					has_country_flag = exiles_invited
+				}
+			}
 			ai_will_do = {
 				factor = 1
 
@@ -72,19 +80,19 @@ ideas = {
 			modifier = {
 				#conscription = 0.025
 				conscription = 0.02
-				mobilization_speed = 0.07
+				#mobilization_speed = 0.05
 				industrial_capacity_factory = 0.08
 				production_speed_buildings_factor = 0.04
 			}
 			
-			#default = yes
+			default = yes
 			
 			cancel_if_invalid = no
 		}
 
 		minutemen_militia_conscription = {
 						
-			cost = 75
+			cost = 50
 			removal_cost = -1
 			level = 6
 			
@@ -92,11 +100,21 @@ ideas = {
 				#has_manpower_for_recruit_change_to =  { value = 0.015 group = mobilization_laws }
 				NOT = { has_idea = undisturbed_isolation }
 				NOT = { has_idea = isolation }
+				custom_trigger_tooltip = {
+					tooltip = MINUTEMAN_MILITIA_USA_TOOLTIP
+					is_a_state_of_the_united_states = yes 
+				}
 			}
-
+			visible = {
+				NOT = {
+					has_country_flag = exiles_invited
+				}
+			}
 			modifier = {
 				conscription = 0.035
-				mobilization_speed = 0.12
+				mobilization_speed = 0.10
+				army_core_attack_factor = 0.05			
+				army_core_defence_factor = 0.05
 				#something small maybe
 			}
 
@@ -130,7 +148,7 @@ ideas = {
 			}
 
 			cancel_if_invalid = no
-			default = yes			#maybe?
+			default = no		#maybe?
 		}
 		
 		limited_conscription = {
@@ -146,11 +164,15 @@ ideas = {
 				NOT = { has_idea = isolation }
 				
 			}
-
+			visible = {
+				NOT = {
+					has_country_flag = exiles_invited
+				}
+			}
 			modifier = {
 				#conscription = 0.05
 				conscription = 0.045
-				mobilization_speed = 0.03
+				mobilization_speed = 0.02
 			}
 
 			ai_will_do = {
@@ -202,7 +224,22 @@ ideas = {
 				}
 				has_war_support > 0.2
 			}
-
+			visible = {
+				NOT = {
+					has_country_flag = exiles_invited
+				}
+			}
+			on_add = {
+				if = {
+					limit = {
+						has_idea = SOH_military_readiness
+					}
+					custom_effect_tooltip = SOH_military_readiness_up_1
+					add_to_variable = {
+						SOH_military_readiness_variable = 1
+					}
+				}
+			}
 			ai_will_do = {
    				factor = 1
 
@@ -235,7 +272,7 @@ ideas = {
 				#industrial_capacity_factory = -0.1
 				#production_speed_buildings_factor = -0.1
 				training_time_factor = 0.1
-				mobilization_speed = 0.03
+				mobilization_speed = 0.05
 			}
 			
 			cancel_if_invalid = no
@@ -268,7 +305,6 @@ ideas = {
 				}
 
 			}
-
 			ai_will_do = {
 				factor = 1
 				modifier = {
@@ -290,11 +326,25 @@ ideas = {
 				}
 
 			}
-			
+			visible = {
+				NOT = {
+					has_country_flag = exiles_invited
+				}
+			}
 			cost = 200
 			removal_cost = -1
 			level = 3
-
+			on_add = {
+				if = {
+					limit = {
+						has_idea = SOH_military_readiness
+					}
+					custom_effect_tooltip = SOH_military_readiness_up_1
+					add_to_variable = {
+						SOH_military_readiness_variable = 1
+					}
+				}
+			}
 			modifier = {
 				#conscription = 0.125
 				conscription = 0.11
@@ -302,7 +352,7 @@ ideas = {
 				industrial_capacity_dockyard = -0.08
 				production_speed_buildings_factor = -0.1
 				training_time_factor = 0.15
-				mobilization_speed = 0.05
+				mobilization_speed = 0.10
 			}
 			
 			cancel_if_invalid = no
@@ -325,7 +375,11 @@ ideas = {
 				#	}
 				#}
 			}
-
+			visible = {
+				NOT = {
+					has_country_flag = exiles_invited
+				}
+			}
 			ai_will_do = {
 				factor = 1
 				modifier = {
@@ -345,7 +399,17 @@ ideas = {
 					manpower_per_military_factory > 2500
 				}
 			}
-		
+			on_add = {
+				if = {
+					limit = {
+						has_idea = SOH_military_readiness
+					}
+					custom_effect_tooltip = SOH_military_readiness_up_1
+					add_to_variable = {
+						SOH_military_readiness_variable = 1
+					}
+				}
+			}
 			cost = 200
 			removal_cost = -1
 			level = 2
@@ -358,7 +422,7 @@ ideas = {
 				production_speed_buildings_factor = -0.25
 				#XP from reinforcement penalty (small)
 				training_time_factor = 0.25
-				mobilization_speed = 0.05
+				mobilization_speed = 0.15
 			}
 			
 			cancel_if_invalid = no
@@ -381,7 +445,22 @@ ideas = {
 				#	}
 				#}
 			}
-
+			visible = {
+				NOT = {
+					has_country_flag = exiles_invited
+				}
+			}
+			on_add = {
+				if = {
+					limit = {
+						has_idea = SOH_military_readiness
+					}
+					custom_effect_tooltip = SOH_military_readiness_up_1
+					add_to_variable = {
+						SOH_military_readiness_variable = 1
+					}
+				}
+			}
 			ai_will_do = {
 				factor = 1
 				modifier = {
@@ -417,13 +496,8 @@ ideas = {
 				industrial_capacity_dockyard = -0.3
 				production_speed_buildings_factor = -0.4
 				training_time_factor = 0.4
-				mobilization_speed = 0.05
-				#conscription = 0.32
-				#industrial_capacity_factory = -0.3
-				#industrial_capacity_dockyard = -0.3
-				#production_speed_buildings_factor = -0.4
-				#training_time_factor = 0.4
-				#mobilization_speed = 0.10
+				
+				mobilization_speed = 0.25
 			}
 			
 			cancel_if_invalid = no

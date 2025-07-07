@@ -1,136 +1,117 @@
 ﻿l_russian:
-
-  ###Prospect for Resources### 
-
-  utilize_monterry_iron_deposites:0 "Utilize Monterrey Iron Deposits" 
-  utilize_monterry_iron_deposites_desc:0 "" 
-
-  construct_monterry_steel_mills:0 "Construct Monterrey Steel Mills" 
-  construct_monterry_steel_mills_desc:0 "" 
-
-  expand_nueva_rosita_coal_deposites:0 "Expand Nueva Rosita Coal Deposits" 
-  expand_nueva_rosita_coal_deposites_desc:0 "" 
-
-  expand_hermosillo_coal_deposites:0 "Expand Hermosillo Coal Deposits" 
-  expand_hermosillo_coal_deposites_desc:0 "" 
-
-  begin_veracruz_coal_mining:0 "Begin Veracruz Coal Mining" 
-  begin_veracruz_coal_mining_desc:0 "" 
-
-  invest_in_oaxaca_coal_and_chromium:0 "Invest in Oaxaca Coal and Chromium Deposits" 
-  invest_in_oaxaca_coal_and_chromium_desc:0 "" 
-
-  expand_zacatecas_chromium_mines:0 "Expand Zacatecas Chromium Mines" 
-  expand_zacatecas_chromium_mines_desc:0 "" 
-
-  develop_mexicos_steel_mills:0 "Develop Tlaxcala Steel Mills" 
-  develop_mexicos_steel_mills_desc:0 "" 
-
-  kickstart_colima_steel_production:0 "Kickstart Colima Steel Production" 
-  kickstart_colima_steel_production_desc:0 "" 
-
-  expand_colima_steel_production:0 "Expand Colima Steel Manufacturing" 
-  expand_colima_steel_production_desc:0 "" 
-
-  expand_guanajuato_steel_mills:0 "Expand Guanajuato Steel Mills" 
-  expand_guanajuato_steel_mills_desc:0 "" 
-
-  expand_hammond_and_gary_steel_mills:0 "Expand Hammond and Gary Steel Mills" 
-  expand_hammond_and_gary_steel_mills_desc:0 "" 
-
-  expand_northern_indiana_steel_mills:0 "Expand Northern Indiana Steel Mills" 
-  expand_northern_indiana_steel_mills_desc:0 "" 
-
-  expand_detriot_steel_mills:0 "Expand Detroit Steel Mills" 
-  expand_detriot_steel_millsa_desc:0 "" 
-
-  expand_hamilton_steel_mills:0 "Hamilton Steel Mills" 
-  expand_hamilton_steel_mills_desc:0 "" 
-
-  expand_pittsburgh_steel_mills:0 "Expand Pittsburgh Steel Mills" 
-  expand_pittsburgh_steel_mills_desc:0 "" 
-
-  expand_custer_county_chromium_mines:0 "Expand Custer County Chormium Mines" 
-  expand_custer_county_chromium_mines_desc:0 "Custer County is home to many mining towns, utilizing them we can greatly enhance the resource production here." 
-
-  expand_western_idaho_tungsten_mines:0 "Expand Western Idaho Tungsten Mines" 
-  expand_western_idaho_tungsten_mines_desc:0 "" 
-
-  expand_colorado_iron_mines:0 "Expand Colorado Iron Mines" 
-  expand_colorado_iron_mines_desc:0 "" 
-
-  expand_syracuse_steel_mills:0 "Expand Syracuse Steel Mills" 
-  expand_syracuse_steel_mills_desc:0 "" 
-
-  expand_western_alamama_steel_mills:0 "Develop Western Alabama Steel Manufactoring" 
-  expand_western_alamama_steel_mills_desc:0 "" 
-
-  expand_middletown_steel_mills:0 "Expand Middletown Steel Mills" 
-  expand_middletown_steel_mills_desc:0 "" 
-
-  expand_salt_lake_city_steel_mills:0 "Expand Salt Lake City Steel Mills" 
-  expand_salt_lake_city_steel_mills_desc:0 "" 
-
-  expand_granite_steel_mills:0 "Expand Granite Steel Production" 
-  expand_granite_steel_mills_desc:0 "" 
-
-  progressivism_on_the_rise:0 "Progressivism on the Rise" 
-  progressivism_on_the_rise_desc:0 "" 
-
-  prepare_for_progressive_civil_war:0 "Prepare for Civil War" 
-
-  expand_civil_progressive_support:0 "Expand Civil Support" 
-
-  army_support_for_progressive_civil_war:0 "Expand Army Support" 
-
-  ensure_general_loyalty_for_progressive_civil_war:0 "Ensure General Loyalty" 
-
-  ensure_marshal_loyalty_for_progressive_civil_war:0 "Ensure Field Marshal Loyalty" 
-
-  siphon_equipment_stockpiles_for_progressive_civil_war:0 "Siphon Equipment Stockpiles" 
-
-  formulate_surprise_attack_plan_for_progressive_civil_war:0 "Formulate Surprise Attack Plan" 
-
-  ignite_the_progressive_civil_war:0 "Ignite the Civil War" 
-
-  rebuild_the_nation_progressive:0 "Rebuild the Nation" 
-
-  open_up_political_discourse_progressive:0 "Open up Political Discourse" 
-
-  discredit_government_progressivism:0 "Discredit Government" 
-
-  hold_the_progressive_national_referendum:0 "Hold the National Referendum" 
-
-  populism_on_the_rise:0 "Populism on the Rise" 
-  populism_on_the_rise_desc:0 "" 
-
-  prepare_for_populist_civil_war:0 "Prepare for Civil War" 
-
-  expand_civil_populist_support:0 "Expand Civil Support" 
-
-  army_support_for_populist_civil_war:0 "Expand Army Support" 
-
-  ensure_general_loyalty_for_populist_civil_war:0 "Ensure General Loyalty" 
-
-  ensure_marshal_loyalty_for_populist_civil_war:0 "Ensure Field Marshal Loyalty" 
-
-  siphon_equipment_stockpiles_for_populist_civil_war:0 "Siphon Equipment Stockpiles" 
-
-  formulate_surprise_attack_plan_for_populist_civil_war:0 "Formulate Surprise Attack Plan" 
-
-  ignite_the_populist_civil_war:0 "Ignite the Civil War" 
-
-  rebuild_the_nation_populist:0 "Rebuild the Nation" 
-
-  open_up_political_discourse_populist:0 "Open up Political Discourse" 
-
-  discredit_government_longism:0 "Discredit Government" 
-
-  hold_the_populist_national_referendum:0 "Hold the National Referendum" 
-
-  hire_international_mercs:0 "Hire Mercenaries" 
-
-  purchases_weapons:0 "Purchase Weapons" 
-
-  allow_volunteers:0 "Negotiate Volunteer Forces" 
-  allow_volunteers_desc:0 "With tension across the world rising, it is a must that we be allowed to defend our interests. Through political lobbying and negotiation, we can get the opportunity to send a force of volunteers to nations in need of assistance." 
+ allow_volunteers: "Договор о Добровольцах"
+ allow_volunteers_desc: "С ростом напряженности во всем мире, необходимо, чтобы нам позволили защищать наши интересы. Путем политического лоббирования и переговоров мы можем получить возможность отправлять силы добровольцев в страны, нуждающиеся в помощи."
+ anti_populist_raids: "Антипопулистские рейды"
+ anti_progressive_raids: "Антипрогрессивистские рейды"
+ army_support_for_populist_civil_war: "Расширение военной поддержки"
+ army_support_for_progressive_civil_war: "Расширение военной поддержки"
+ ban_populist_party: "Запретить Популистские Партии"
+ ban_progressive_party: "Запретить Прогрессивистские Партии"
+ begin_veracruz_coal_mining: "Начать Добычу Угля в Веракрус"
+ begin_veracruz_coal_mining_desc: ""
+ construct_monterry_steel_mills: "Строить Сталелитейные Заводы Монтеррея"
+ construct_monterry_steel_mills_desc: ""
+ develop_mexicos_steel_mills: "Развивать Сталелитейные Заводы Тлакскалы"
+ develop_mexicos_steel_mills_desc: ""
+ discredit_government_longism: "Дискредитация правительства"
+ discredit_government_progressivism: "Дискредитация правительства"
+ ensure_general_loyalty_for_populist_civil_war: "Лояльность низшего офицерского состава"
+ ensure_general_loyalty_for_progressive_civil_war: "Лояльность низшего офицерского состава"
+ ensure_marshal_loyalty_for_populist_civil_war: "Лояльность верховного командования"
+ ensure_marshal_loyalty_for_progressive_civil_war: "Лояльность верховного командования"
+ expand_civil_longism_support: "Расширение гражданской поддержки"
+ expand_civil_populist_support: "Расширение гражданской поддержки"
+ expand_civil_progressive_support: "Расширение гражданской поддержки"
+ expand_colima_steel_production: "Расширить Производство Стали в Колиме"
+ expand_colima_steel_production_desc: ""
+ expand_colorado_iron_mines: "Расширить Железные Рудники Колорадо"
+ expand_colorado_iron_mines_desc: ""
+ expand_custer_county_chromium_mines: "Расширить Хромовые Рудники Округа Кастер"
+ expand_custer_county_chromium_mines_desc: "В Округе Кастер расположено множество шахтерских городов, используя их, мы можем значительно увеличить производство ресурсов."
+ expand_detriot_steel_mills: "Расширить Сталелитейные Заводы Детройта"
+ expand_detriot_steel_millsa_desc: ""
+ expand_granite_steel_mills: "Расширить Производство Стали в Граните"
+ expand_granite_steel_mills_desc: ""
+ expand_guanajuato_steel_mills: "Расширить Производство Стали в Гуанахуато"
+ expand_guanajuato_steel_mills_desc: ""
+ expand_hamilton_steel_mills: "Гамильтонские Сталелитейные Заводы"
+ expand_hamilton_steel_mills_desc: ""
+ expand_hammond_and_gary_steel_mills: " Расширить Сталелитейные Заводы Хаммонда и Гэри"
+ expand_hammond_and_gary_steel_mills_desc: ""
+ expand_hermosillo_coal_deposites: "Расширить Угольные Месторождения Эрмосильо"
+ expand_hermosillo_coal_deposites_desc: ""
+ expand_middletown_steel_mills: "Расширить Сталелитейные Заводы Миддлтона"
+ expand_middletown_steel_mills_desc: ""
+ expand_northern_indiana_steel_mills: "Расширить Сталелитейные Заводы Северной Индианы"
+ expand_northern_indiana_steel_mills_desc: ""
+ expand_nueva_rosita_coal_deposites: "Расширить Угольные Месторождения Нуэва Росита"
+ expand_nueva_rosita_coal_deposites_desc: ""
+ expand_pittsburgh_steel_mills: "Расширить Питтсбургские Сталелитейные Заводы"
+ expand_pittsburgh_steel_mills_desc: ""
+ expand_salt_lake_city_steel_mills: "Расширить Сталелитейные Заводы Солт-Лейк-Сити"
+ expand_salt_lake_city_steel_mills_desc: ""
+ expand_syracuse_steel_mills: "Расширить Сиракьюсские Сталелитейные Заводы"
+ expand_syracuse_steel_mills_desc: ""
+ expand_western_alamama_steel_mills: "Развивать Сталелитейное Производство Западной Алабамы"
+ expand_western_alamama_steel_mills_desc: ""
+ expand_western_idaho_tungsten_mines: "Расширить Вольфрамовые Рудники Западного Айдахо"
+ expand_western_idaho_tungsten_mines_desc: ""
+ expand_zacatecas_chromium_mines: "Расширить Хромовые Рудники Закатекаса"
+ expand_zacatecas_chromium_mines_desc: ""
+ formulate_surprise_attack_plan_for_populist_civil_war: "Подготовка плана внезапного нападения"
+ formulate_surprise_attack_plan_for_progressive_civil_war: "Подготовка плана внезапного нападения"
+ hire_international_mercs: "Нанять Наемников"
+ hold_the_populist_national_referendum: "Проведение всенародного референдума"
+ hold_the_progressive_national_referendum: "Проведение всенародного референдума"
+ ignite_the_populist_civil_war: "Разжигание гражданской войны"
+ ignite_the_progressive_civil_war: "Разжигание гражданской войны"
+ institute_press_censorship_populist_state: "Цензура прессы"
+ institute_press_censorship_progressive_state: "Институт цензуры прессы"
+ invest_in_oaxaca_coal_and_chromium: "Инвестировать в Угольные и Хромовые Месторождения Оахаки"
+ invest_in_oaxaca_coal_and_chromium_desc: ""
+ kickstart_colima_steel_production: "Запуск Производства Стали в Колиме"
+ kickstart_colima_steel_production_desc: ""
+ military_support_for_populist_civil_war: "Имеет военную поддержку в гражданской войне.\n"
+ open_up_political_discourse_longism: "Начало политических дебатов"
+ open_up_political_discourse_populist: "Начало политических дебатов"
+ open_up_political_discourse_progressive: "Начало политических дебатов"
+ populism_on_the_rise: "Популизм на подъеме"
+ populism_on_the_rise_desc: ""
+ prepare_for_populist_civil_war: "Подготовка к гражданской войне"
+ prepare_for_progressive_civil_war: "Подготовка к гражданской войне"
+ progressivism_on_the_rise: "Прогрессивизм на подъеме"
+ progressivism_on_the_rise_desc: ""
+ purchases_weapons: "Закупить Оружие"
+ rebuild_the_nation_populist: "Возродить нацию"
+ rebuild_the_nation_progressive: "Возродить нацию"
+ siphon_equipment_stockpiles_for_populist_civil_war: "Переброска снаряжения"
+ siphon_equipment_stockpiles_for_progressive_civil_war: "Переброска снаряжения"
+ utilize_monterry_iron_deposites: "Использовать Месторождения Железа Монтеррея"
+ utilize_monterry_iron_deposites_desc: ""
+ authoritarianism_on_the_rise: "Авторитаризм на подъеме"
+ prepare_for_authoritarian_civil_war: "Подготовка к гражданской войне"
+ prepare_for_authoritarian_civil_war.desc: "Подготовка к гражданской войне"
+ hold_the_authoritarian_national_referendum: "Проведение всенародного референдума"
+ hold_the_authoritarian_national_referendum.desc: "Проведение всенародного референдума"
+ expand_civil_authoritarian_support: "Расширение гражданской поддержки"
+ expand_civil_authoritarian_support.desc: "Расширение гражданской поддержки"
+ army_support_for_authoritarian_civil_war: "Расширение военной поддержки"
+ army_support_for_authoritarian_civil_war.desc: "Расширение военной поддержки"
+ ensure_general_loyalty_for_authoritarian_civil_war: "Лояльность низшего офицерского состава"
+ ensure_general_loyalty_for_authoritarian_civil_war.desc: "Лояльность низшего офицерского состава"
+ ensure_marshal_loyalty_for_authoritarian_civil_war: "Лояльность верховного командования"
+ ensure_marshal_loyalty_for_authoritarian_civil_war.desc: "Лояльность верховного командования"
+ siphon_equipment_stockpiles_for_authoritarian_civil_war: "Переброска снаряжения"
+ siphon_equipment_stockpiles_for_authoritarian_civil_war.desc: "Переброска снаряжения"
+ formulate_surprise_attack_plan_for_authoritarian_civil_war: "Подготовка плана внезапного нападения"
+ formulate_surprise_attack_plan_for_authoritarian_civil_war.desc: "Подготовка плана внезапного нападения"
+ ignite_the_authoritarian_civil_war_single_state: "Разжигание гражданской войны"
+ ignite_the_authoritarian_civil_war_single_state.desc: "Разжигание гражданской войны"
+ ignite_the_authoritarian_civil_war: "Разжигание гражданской войны"
+ ignite_the_authoritarian_civil_war.desc: "Разжигание гражданской войны"
+ rebuild_the_nation_authoritarian: "Перестройка нации"
+ rebuild_the_nation_authoritarian.desc: "Перестройка нации"
+ open_up_political_discourse_authoritarian: "Начало политических дебатов"
+ open_up_political_discourse_authoritarian.desc: "Начало политических дебатов"
+ discredit_government_authoritarian: "Дискредитация правительства"
+ discredit_government_authoritarian.desc: "Дискредитация правительства"

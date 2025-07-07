@@ -1,9 +1,7 @@
-
-state={
-	id=116
-	name="STATE_116"
-
-	history={
+state = {
+	id = 116
+	name = "STATE_116"
+	history = {
 		owner = PQC
 		1936.1.2 = {
 			owner = CAN
@@ -11,18 +9,19 @@ state={
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-
 		}
 		add_core_of = PQC
-
 	}
-
-	provinces={
-		2723 2782 4007 8035 8042 
+	provinces = {
+		2723
+		2782
+		2984
+		2987
+		4007
+		8035
 	}
-	manpower=95200
-	buildings_max_level_factor=1.000
-	state_category=rural
-
-	local_supplies=0.0 
+	manpower = 95200
+	buildings_max_level_factor = 1
+	state_category = rural
+	local_supplies = 0
 }

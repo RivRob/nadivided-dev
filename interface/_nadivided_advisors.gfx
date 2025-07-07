@@ -448,13 +448,13 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_idea_SNY_robert_l._denig"
-		texturefile = "gfx/interface/advisors/SNY_robert_l._denig.dds"
+		name = "GFX_idea_SNY_robert_l_denig"
+		texturefile = "gfx/interface/advisors/SNY_robert_l_denig.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_idea_SNY_mark_w._clark"
-		texturefile = "gfx/interface/advisors/SNY_mark_w._clark.dds"
+		name = "GFX_idea_SNY_mark_w_clark"
+		texturefile = "gfx/interface/advisors/SNY_mark_w_clark.dds"
 	}
 
 	SpriteType = {
@@ -570,7 +570,9 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_idea_SFL_vivan_collins"
 		texturefile = "gfx/interface/advisors/SFL_vivan_collins.dds"
+	}
 
+	spriteType = {
 		name = "GFX_idea_SPA_smedley_butler"
 		texturefile = "gfx/interface/advisors/SPA_smedley_butler.dds"
 	}
@@ -612,10 +614,10 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_idea_SGA_blanton_c_winship"
-		texturefile = "gfx/interface/advisors/SGA_blanton_c_winship.dds"
-	}
+		texturefile = "gfx/interface/advisors/SPA_george_howard_earle_iii.dds"
+	} #was SGA_blanton_c_winship.dss just was missing so replaced with above just for now - p.
 
-	SpriteType = {
+	SpriteType = { 
 		name = "GFX_idea_SGA_c_pope"
 		texturefile = "gfx/interface/advisors/SGA_c_pope.dds"
 	}
@@ -796,8 +798,8 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_idea_SCA_george_s._patton"
-		texturefile = "gfx/interface/advisors/SCA_george_s._patton.dds"
+		name = "GFX_idea_SCA_george_s_patton"
+		texturefile = "gfx/interface/advisors/SCA_george_s_patton.dds"
 	}
 
 	SpriteType = {
@@ -896,8 +898,8 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_idea_SMD_Edward_Rowny"
-		texturefile = "gfx/interface/advisors/SMD_Edward_Rowny.dds"
+		name = "GFX_idea_SMD_edward_rowny"
+		texturefile = "gfx/interface/advisors/SMD_edward_rowny.dds"
 	}
 
 	SpriteType = {
@@ -945,5 +947,45 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_idea_RCA_steinbeck"
 		texturefile = "gfx/interface/advisors/idea_RCA_steinbeck.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_RCA_decker"
+		texturefile = "gfx/interface/advisors/idea_RCA_decker.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_RCA_robeson"
+		texturefile = "gfx/interface/advisors/idea_RCA_robeson.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_RCA_merriam"
+		texturefile = "gfx/interface/advisors/idea_RCA_merriam.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_RCA_billings"
+		texturefile = "gfx/interface/advisors/idea_RCA_billings.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_RCA_hamilton"
+		texturefile = "gfx/interface/advisors/idea_RCA_hamilton.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_RCA_mooney"
+		texturefile = "gfx/interface/advisors/idea_RCA_mooney.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_RCA_carter"
+		texturefile = "gfx/interface/advisors/idea_RCA_carter.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_RCA_anita_whitney"
+		texturefile = "gfx/interface/advisors/idea_RCA_anita_whitney.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_RCA_louis_adamic"
+		texturefile = "gfx/interface/advisors/idea_RCA_louis_adamic.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_RCA_sam_darcy"
+		texturefile = "gfx/interface/advisors/idea_RCA_sam_darcy.dds"
 	}
 }

@@ -531,7 +531,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-		custom_effect_tooltip = SSW_chkalov_tt
+		custom_effect_tooltip = SSW_valery_chkalov_tt
 		air_experience = 15
 		}
 	}
@@ -1896,9 +1896,24 @@ focus_tree = {
 		#cosmetic tag cascadia red
 		completion_reward = {
 		hidden_effect = { 
-		country_event = { 
-					id = super.4
+		#country_event = { 
+		#			id = super.4
+		#		}
+		country_event = {
+			id = usastates_news.52
+		}
+		if = {
+			limit = {
+				has_game_rule = {
+					rule = rule_event_audio
+					option = DEFAULT
 				}
+				is_ai = no
+			}
+			hidden_effect = {
+				sound_effect = superevent_maoist_washington
+			}
+		}
 		}
 		set_party_name = { 
     ideology = communism 

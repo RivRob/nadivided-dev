@@ -59,16 +59,16 @@ SAZ = {
 	color_ui = rgb { 255 253 137 }
 }
 SCA = {
-	color = rgb { 207 23 30 } #was breaking game in past, testing now
-	color_ui = rgb { 207 23 30 }
+	color = rgb { 172 135 114 } #was breaking game in past, testing now
+	color_ui = rgb { 172 135 114 }
 }
 SMT = {
 	color = rgb { 226 164 122 } #226 144 86
 	color_ui = rgb { 226 164 122 }
 }
 BAJ = {
-	color = rgb { 85 95 195 } #was breaking game in past, testing now
-	color_ui = rgb { 85 95 195 }
+	color = rgb { 67 30 35 }
+	color_ui = rgb { 67 30 35 }
 }
 SMD = {
 	color = rgb { 60 68 71 }
@@ -130,12 +130,16 @@ WDC = {
 	color = rgb { 0 132 255 }
 	color_ui = rgb { 0 132 255 }
 }
+VES = {
+	color = rgb { 0 132 255 }
+	color_ui = rgb { 0 132 255 }
+}
 SID = {
 	color = rgb { 189 126 64 }
 	color_ui = rgb { 189 126 64 }
 }
 SWY = {
-	color = rgb { 126 122 104 } #86 163 104
+	color = rgb { 126 122 104 } 
 	color_ui = rgb { 126 122 104 }
 }
 SKS = {
@@ -163,15 +167,15 @@ SAR = {
 	color_ui = rgb { 156 87 148 }
 }
 SNJ = {
-	color = rgb { 189 177 130 }
-	color_ui = rgb { 189 177 130 }
+	color = rgb { 173 179 200 }
+	color_ui = rgb { 173 179 200 }
 }
 SGA = {
 	color = rgb { 170 60 23 } #168 83 13
 	color_ui = rgb { 170 60 23 }
 }
 SAL = {
-	color = rgb { 222 62 84 }
+	color = rgb { 190 30 30 }
 	color_ui = rgb { 222 62 84 }
 }
 SVT = {
@@ -357,7 +361,7 @@ IJA = {
 	color_ui = rgb { 220 220 231 }
 }
 SDL = {
-	color = { 73 188 175 }
+	color = rgb { 73 188 175 }
 	color_ui = rgb { 73 188 175 }
 }
 #######################################
@@ -585,8 +589,12 @@ MCL = {
 	color_ui = rgb { 255 255 135 }
 }
 CHI = {
-	color = rgb { 165 53 64 }
-	color_ui = rgb { 165 53 64 }
+	color = rgb { 43 38 40 }
+	color_ui = rgb { 43 38 40 }
+}
+BSB = {
+	color = rgb { 92 70 105 }
+	color_ui = rgb { 92 70 105 }
 }
 MIA = {
 	color = rgb { 79 158 83 }
@@ -723,8 +731,8 @@ BAR = {
 	color_ui = rgb { 66 245 212 }
 }
 CHI = {
-	color = rgb { 102 8 209 }
-	color_ui = rgb { 185 131 247 }
+	color = rgb { 143 138 140 }
+	color_ui = rgb { 143 138 140 }
 }
 
 SNU = {

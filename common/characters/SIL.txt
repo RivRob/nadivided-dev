@@ -10,6 +10,9 @@ SIL_horner={
 			ideology=liberalism
 			expire="1965.1.1.1"
 			id=-1
+			traits = {
+				first_jewish_governor
+			}
 		}
 	
 	}
@@ -24,20 +27,24 @@ SIL_steele={
 			ideology=liberalism
 			expire="1965.1.1.1"
 			id=-1
+			traits = {
+				small_business_owner
+				political_animinal
+				horners_successor
+			}
 		}
 	
 	}	
-SIL_copley={
+SIL_copley={ ###IS THIS GUY EVEN IN THE GAME?
 		name="Ira C. Copley"
-		portraits={
-			civilian={
-				large="gfx//leaders//SIL//SIL_Ira_C_Copley.dds"
-			}
-		}
+		# TODO: portraits
 		country_leader={
 			ideology=roosevelt_progressivism
 			expire="1965.1.1.1"
 			id=-1
+			traits = {
+				newspaper_backing
+			}
 		}
 	
 	}
@@ -52,9 +59,40 @@ SIL_kreuger={
 			ideology=progressive_socialism
 			expire="1965.1.1.1"
 			id=-1
+			traits = {
+				education_reformer
+			}
 		}
 	
 	}
+SIL_orwell = {
+		name="Eric Blair"
+		portraits={
+			civilian={
+				large="gfx/leaders/SIL/SIL_george_orwell.dds"
+			}
+		}
+		country_leader={
+			ideology= progressive_socialism
+			expire="1965.1.1.1"
+			id=-1
+            traits = {  }
+		}
+		corps_commander={
+			traits={
+				jungle_rat
+			}
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+			visible = {
+				has_character_flag = is_visible
+			}
+		}
+	}	
 SIL_lightfoot={
 		name="Claude Lightfoot"
 		portraits={
@@ -66,6 +104,9 @@ SIL_lightfoot={
 			ideology=stalinism
 			expire="1965.1.1.1"
 			id=-1
+			traits = {
+				social_revolutionary
+			}
 		}
 	
 	}	
@@ -80,6 +121,9 @@ SIL_thompson={
 			ideology=hueyism
 			expire="1965.1.1.1"
 			id=-1
+			traits = {
+				big_bill
+			}
 		}
 	
 	}
@@ -92,6 +136,7 @@ SIL_nazi={
 		}
 		country_leader={
 			ideology=nazism
+			traits = { lady_saw_red nazi_sympathizer }
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -108,6 +153,9 @@ SIL_nazi={
 			ideology=political_machine
 			expire="1965.1.1.1"
 			id=-1
+			traits = {
+				mayor_of_chicago
+			}
 		}
 	
 	}	
@@ -116,10 +164,8 @@ SIL_grant_iii={
 		name="Ulysses S. Grant III"
 		portraits={
 			army={
-				small=""
-			}
-			army={
 				large="gfx/leaders/SIL/portrait_ulyesses_s_grant_III.dds"
+				# TODO: small
 			}
 		}
 		corps_commander={
@@ -141,10 +187,8 @@ SIL_dickson={
 		name="Frank S. Dickson"
 		portraits={
 			army={
-				small=""
-			}
-			army={
 				large="gfx/leaders/SIL/portrait_frank_s_dickson.dds"
+				# TODO: small
 			}
 		}
 		corps_commander={
@@ -165,10 +209,8 @@ SIL_lutes={
 		name="LeRoy Lutes"
 		portraits={
 			army={
-				small=""
-			}
-			army={
 				large="gfx/leaders/SIL/portrait_lutes.dds"
+				# TODO: small
 			}
 		}
 		corps_commander={
@@ -188,10 +230,8 @@ SIL_allman={
 		name="James P. Allman"
 		portraits={
 			army={
-				small=""
-			}
-			army={
 				large="gfx/leaders/SIL/portrait_james_p_allman.dds"
+				# TODO: small
 			}
 		}
 		corps_commander={
@@ -212,10 +252,8 @@ SIL_marshal={
 		name="George C. Marshall"
 		portraits={
 			army={
-				small=""
-			}
-			army={
 				large="gfx/leaders/SIL/portrait_george_c_marshall.dds"
+				# TODO: small
 			}
 		}
 		field_marshal={
@@ -238,16 +276,14 @@ SIL_bolte={
 		name="Charles Lawrence Bolte"
 		portraits={
 			army={
-				small=""
-			}
-			army={
 				large="gfx/leaders/SIL/portrait_charles_lawrence_bolte.dds"
+				# TODO: small
 			}
 		}
 		corps_commander={
 			traits={
-			urban_assault_specialist
-			politically_connected
+				infantry_officer
+				politically_connected
 			
 			}
 			skill=1
@@ -262,16 +298,14 @@ SIL_boyle={
 		name="Leo Boyle"
 		portraits={
 			army={
-				small=""
-			}
-			army={
 				large="gfx/leaders/SIL/portrait_leo_boyle.dds"
+				# TODO: small
 			}
 		}
 		corps_commander={
 			traits={
-			urban_assault_specialist
-			politically_connected
+				paratroopers
+				politically_connected
 			
 			}
 			skill=1
@@ -286,10 +320,8 @@ SIL_boyle={
 		name="Manton S. Eddy"
 		portraits={
 			army={
-				small=""
-			}
-			army={
 				large="gfx/leaders/SIL/portrait_manton_s_eddy.dds"
+				# TODO: small
 			}
 		}
 		corps_commander={

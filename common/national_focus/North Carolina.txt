@@ -25,7 +25,7 @@ focus_tree = {
 			}
 		}
 	}
-	#hoey
+	# Hoey
 	focus = {
 		id = SNC_hoey_presidency
 		icon = GFX_focus_SNC_hoey
@@ -39,14 +39,12 @@ focus_tree = {
         ai_will_do = {
 			factor = 90
 		}
-        #available = no
 		completion_reward = {
             add_popularity = {
 				ideology = democratic
 				popularity = 0.05
             }
-			promote_character = SNC_clyde_roark_hoey
-	}
+		}
 	}
 	focus = {
 		id = SNC_Oppose_huey_long
@@ -278,7 +276,7 @@ focus_tree = {
 		cost = 4
 		available_if_capitulated = yes
 		completion_reward = {
-			remove_ideas = SNC_Jim_Crow
+			
 		}
 	}
 
@@ -291,13 +289,11 @@ focus_tree = {
 		relative_position_id = SNC_Create_southern_Defence_council
 		cost = 1
         available = {
-			OR = {
-				SVA = {
+			SVA = {
+				OR = {
 					has_government = democratic
-				}
-				SVA = {
 					has_government = neutrality
-					}
+				}
 				}
 			NOT = {
 				SVA = {
@@ -377,9 +373,12 @@ focus_tree = {
 		relative_position_id = SNC_Create_southern_Defence_council
 		cost = 1
 		available = {
-            SSC = {
-                has_government = democratic
-            }
+			SSC = {
+				OR = {
+					has_government = democratic
+					has_government = progressivism
+				}
+			}
         }
 		available_if_capitulated = yes
 		completion_reward = {
@@ -438,8 +437,14 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
         available = {
-			is_in_faction_with = STN
-			controls_tennessee_trigger = yes
+			OR = {
+				is_in_faction_with = STN
+			}
+		}
+		available = {
+			OR = {
+				controls_tennessee_trigger = yes
+			}
 		}
 		completion_reward = {
 			STN = {
@@ -787,7 +792,7 @@ focus_tree = {
 		completion_reward = {
 			add_ideas =  SNC_share_the_wealth
 			remove_ideas = SNC_Poorly_funded_military
-			remove_ideas = SNC_Jim_Crow
+			segregation_level_down = yes 
 		}
 	}
 	focus = {
@@ -825,7 +830,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		completion_reward = {
 			add_timed_idea = { idea = SNC_comrades_unite  days = 300 }
-			remove_ideas = SNC_Jim_Crow
+			segregation_level_down = yes 
 		}
 	}
 	######communists
@@ -1631,7 +1636,7 @@ focus_tree = {
 			factor = 160
 		}
 		completion_reward = {
-			remove_ideas = SNC_Jim_Crow
+			segregation_level_down = yes 
 			add_popularity = {
 				ideology = longism
 				popularity = 0.15
@@ -1923,9 +1928,17 @@ focus_tree = {
 				ideology = fascism
 				popularity = 0.25
             }
-                set_politics = {
+            set_politics = {
 				ruling_party = fascism
 			}
+
+
+        ##allows SC to denounce NC tells them fascist been elected
+	hidden_effect = {
+	
+	SSC = { country_event = { id = north_carolina.8 } }
+		} #end hidden effect
+
 		}
 	}
 	focus = {
@@ -2243,7 +2256,7 @@ focus_tree = {
 			factor = 160
 		}
 		completion_reward = {
-			remove_ideas = SNC_Jim_Crow
+			segregation_level_down = yes 
 		}
 	}
 	focus = {
@@ -2663,6 +2676,28 @@ focus_tree = {
 		relative_position_id = SNC_Partician_the_south
 		cost = 10
 		available_if_capitulated = yes
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = control_alabama_tt
+				controls_alabama_trigger = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = control_florida_tt
+				controls_florida_trigger = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = controls_virginia_trigger_tt
+				controls_virginia_trigger = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = controls_tennessee_trigger_tt
+				controls_tennessee_trigger = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = control_georgia_tt
+				controls_georgia_trigger = yes
+			}
+		}
 		completion_reward = {
 			add_ideas = SNC_the_confederacy_reborn
 			create_wargoal = {
@@ -2672,6 +2707,23 @@ focus_tree = {
 			create_wargoal = {
 				type = annex_everything
 				target = SMD
+			}
+			hidden_effect = {
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = rule_event_audio
+							option = DEFAULT
+						}
+						is_ai = no
+					}
+					hidden_effect = {
+						sound_effect = superevent_silver_legion_triumph
+					}
+				}
+				country_event = {
+					id = usastates_news.53
+				}
 			}
 		}
 	}

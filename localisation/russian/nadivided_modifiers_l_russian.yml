@@ -1,6 +1,6 @@
 ﻿l_russian:
- progressivism_drift:0 "Daily Support for Progressivism" 
- longism_drift:0 "Daily Support for Populism" 
- progressivism_acceptance:0 "Acceptance of Progressivist Diplomacy" 
- longism_acceptance:0 "Acceptance of Populist Diplomacy" 
- excavation_tech:0 "Excavation Tech Research Speed: " 
+ progressivism_drift: "Ежедневная поддержка прогрессивизма"
+ longism_drift: "Ежедневная поддержка популизма"
+ progressivism_acceptance: "Прогрессивизм: согласие с дипломатическими действиями"
+ longism_acceptance: "Популизм: согласие с дипломатическими действиями"
+ excavation_tech: "Темпы исследований эскаваторов: "
