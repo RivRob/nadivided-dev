@@ -3618,16 +3618,10 @@ focus = {
 
 		completion_reward = {
 			add_tech_bonus = {
-				name = fighter_bonus
+				name = light_fighter
 				bonus = 1.0
-				uses = 2
-				technology = early_fighter
-				technology = fighter1
-				technology = fighter2
-				technology = fighter3
-				technology = heavy_fighter1
-				technology = heavy_fighter2
-				technology = heavy_fighter3
+				uses = 1
+				category = light_fighter
 			}
 			air_experience = 50
 		}
@@ -3694,7 +3688,7 @@ focus = {
 		y = 1
 		relative_position_id = SAL_bomber_focus
         prerequisite = { focus = SAL_bomber_focus focus = SAL_fighter_doctrines }
-		cost = 10
+		cost = 15
 
 		search_filters = {  FOCUS_FILTER_POLITICAL }
 		
@@ -3705,15 +3699,14 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = fighter_bonus
-				bonus = 1.0
-				uses = 2
-				technology = early_fighter
-				technology = fighter1
-				technology = fighter2
-				technology = fighter3
-				technology = heavy_fighter1
-				technology = heavy_fighter2
-				technology = heavy_fighter3
+				bonus = 0.5
+				uses = 1
+				category = light_fighter
+				category = cat_heavy_fighter
+				category = cas_bomber
+				category = tactical_bomber
+				category = cat_strategic_bomber
+				category = naval_bomber
 			}
 		}
 	}
@@ -3751,19 +3744,23 @@ focus = {
 		y = 1
 		relative_position_id = SAL_Air_doctrine_modernzaiton
         prerequisite = { focus = SAL_Air_doctrine_modernzaiton  }
-		cost = 10
+		cost = 25
 
 		search_filters = {  FOCUS_FILTER_POLITICAL }
+
+		available = {
+			has_tech = improved_small_airframe
+			has_tech = improved_medium_airframe
+
+		}
 		
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 2
 		}
 		completion_reward = {
-  			add_tech_bonus = {
-				bonus = 0.75
-				uses = 2
-				category = jet_technology
+			complete_special_project = {
+				project = sp_air_jet_engine
 			}
 		}
 	}
@@ -3788,10 +3785,7 @@ focus = {
 			add_tech_bonus = {
 				name = bomber_bonus
 				bonus = 1.0
-				uses = 2
-				technology = strategic_bomber1
-				technology = strategic_bomber2
-				technology = strategic_bomber3
+				uses = 1
 				category = tactical_bomber
 			}
 			air_experience = 50
