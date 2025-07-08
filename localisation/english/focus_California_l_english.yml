@@ -161,6 +161,9 @@
  
  SCA_nuclear_effort:0"Nuclear research"
  SCA_nuclear_effort_desc:0"Nuclear power seems to be the future, will this change the nature of warfare? some disagree. war never changes"
+
+ SCA_university_of_berkeley_atomic_department:0 "University of Berkeley Atomic Department"
+ SCA_university_of_berkeley_atomic_department_desc:0 "Exapanding the University in the growing field of atomics might provide the people of California great benefit"
  
  SCA_secret_weapons:0"Secret Weapons"
  SCA_secret_weapons_desc:0"radar and stuff"
@@ -461,10 +464,10 @@
   SCA_shock_and_awe:0 "Shock and Awe"
   SCA_shock_and_awe_desc:0 ""
 
-  SCA_joint_air_navy:0 "joint air navy"
+  SCA_joint_air_navy:0 "Joint Air Navy"
   SCA_joint_air_navy_desc:0 " The Air and Navy need to work together in order to better protect ourselves aborad and domestically."
 
-  SCA_continue_flattop_exp:0 "continue flattop exp"
+  SCA_continue_flattop_exp:0 "Continue Flattop Exp"
   SCA_continue_flattop_exp_desc:0 "Carriers held limited test in the Federal era. We should continue these tests. "
 
   SCA_NAV_aviation:0 "Naval Aviation"
@@ -842,7 +845,7 @@
     SCA_preemptive_barricades:0 "Preemptive Barricades"
     SCA_preemptive_barricades_desc:0 ""
 
-    SCA_popular_uprising:0 "Popular Uprising"
+    SCA_popular_uprising:0 "Red Insurrection"
     SCA_popular_uprising_desc:0 ""
 
     SCA_rally_the_north:0 "Rally the North"
@@ -1009,7 +1012,7 @@
     SCA_deploy_the_national_guard_desc:0 ""
 
     SCA_northern_cali_puppet_gov:0 "Californian Puppet"
-    SCA_northern_cali_puppet_gov_desc:0 "I MISS THE RAGE"
+    SCA_northern_cali_puppet_gov_desc:0 ""
 
     SCA_support_feds:0 "Support the Federal Government"
     SCA_support_feds_desc:0 ""
@@ -1021,4 +1024,8 @@
     SCA_Create_Cali_Police_Agency_desc:0 ""
 
     SCA_seek_foreign_support:0 "Seek Foreign Support"
-    SCA_seek_foreign_support_desc:0
+    SCA_seek_foreign_support_desc:0 ""
+
+    SCA_union_research_groups:0 "Union Research Groups"
+
+    SCA_end_the_chaos_tt:0 "§CAllows you to core the rest of the West Coast if you control it apon finishing this focus§!" 

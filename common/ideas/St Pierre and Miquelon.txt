@@ -162,7 +162,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				consumer_goods_factor = -0.05
+				consumer_goods_factor=-0.15
 				stability_factor = -0.1
 			}
 		}
@@ -277,7 +277,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				consumer_goods_factor = 0.1
+				consumer_goods_factor=0.3
 				stability_factor = -0.05
 			}
 		}
@@ -391,7 +391,7 @@ ideas = {
 				political_power_cost = 0.15
 				weekly_manpower = 350 
 				trade_opinion_factor = 0.15
-				consumer_goods_factor = 0.03
+				consumer_goods_factor=0.09
 			}
 		}
 		PSP_Catholic_Paradise_idea = {
@@ -414,6 +414,25 @@ ideas = {
 			modifier = {
 				army_defence_factor = 0.05
 				weekly_manpower = 100 
+			}
+		}
+
+		PSP_Attack_Ontario_idea = {
+			picture = FRA_national_mobilization_focus
+
+			allowed = {
+				tag = PSP
+			}
+
+			available = {
+				always = yes 
+			}
+
+			removal_cost = -1
+
+			targeted_modifier = {
+				tag = PON
+				attack_bonus_against = 0.15
 			}
 		}
 

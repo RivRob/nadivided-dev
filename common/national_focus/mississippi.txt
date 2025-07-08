@@ -49,6 +49,7 @@ shared_focus = SXS_Southern_Consolidation
 		}
 
 		completion_reward = {
+		set_country_flag = KKK_led_USA_state
 		}
 	}
 focus = { 
@@ -2944,6 +2945,40 @@ focus = {
 				idea = SMS_Factory_conversion_effort_idea
 				days = 350
 		    }			
+		}
+	}
+
+focus = {
+		id = SMS_retake_boloxi
+		icon = GFX_focus_sms_factory_conversion
+		x = 0
+		y = 2
+		cost = 6
+        #Louisina exist bypass, or if huey isn't in charge bypass###
+		
+		available_if_capitulated =  yes
+		 available = {
+         NOT = {
+                owns_state = 155
+            }
+             }
+		####Needs to be asked for event 
+#this isn't a mistake### oppose long should be the one to get it
+      relative_position_id = SMS_oppose_long
+	   prerequisite = { focus = SMS_oppose_long}
+		
+
+	
+
+		ai_will_do = {
+			factor = 160
+		}
+		completion_reward = {
+        		create_wargoal = {
+		type = take_state_focus
+		target = SLA
+		generator = {155 }
+			}		
 		}
 	}
 

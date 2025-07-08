@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Infantry"
+	name = "Infantry Division"
 
 	division_names_group = USA_INF_01
 
@@ -19,7 +19,7 @@
 }
 
 division_template = {
-	name = "Cavalry"
+	name = "Cavalry Division"
 
 	division_names_group = TEX_INF_01
 
@@ -38,20 +38,9 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 3422
-		division_template = "Infantry"
+		location = 1948
+		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-	}
-
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 5129
-		division_template = "Infantry"
-		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 	}
 
@@ -60,8 +49,8 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 3900
-		division_template = "Infantry"
+		location = 1948
+		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 	}
@@ -72,7 +61,7 @@ units = {
 			name_order = 1
 		}
 		location = 1948
-		division_template = "Infantry"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 	}
@@ -82,8 +71,19 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 3895
-		division_template = "Cavalry"
+		location = 1948
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1948
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.02
 		start_equipment_factor = 0.8
 	}
@@ -93,8 +93,8 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 1876
-		division_template = "Cavalry"
+		location = 1948
+		division_template = "Cavalry Division"
 		start_experience_factor = 0.02
 		start_equipment_factor = 0.8
 	}
@@ -120,6 +120,6 @@ instant_effect = {
 # 			amount = 100
 # 		}
 # 	}
-# #		name = "MD flying core"
+# #		name = "M.D. Flying Corps"
 # }
 

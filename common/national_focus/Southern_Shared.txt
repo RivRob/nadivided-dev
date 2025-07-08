@@ -9,7 +9,7 @@
         x = 6
         y = 0
         offset = {
-            x = 0
+            x = -5
             y = 1
             trigger = {
                 tag = SGA
@@ -95,7 +95,7 @@
     
         offset = {
             x = -17
-            y = 1
+            y = 0
             trigger = {
                  tag = SSC 
             }
@@ -121,6 +121,15 @@
             y = 0
             trigger = {
                  tag = SAR 
+            }
+        }
+
+        offset = {
+            x = 29
+            y = 1
+
+            trigger = {
+                tag = STL 
             }
         }
 
@@ -173,7 +182,7 @@
                 OR = {
                     has_idea = STX_crimewave
                     has_idea = STX_the_great_depression
-                    has_idea = SNC_Jim_Crow
+                    
                 }
             }
 

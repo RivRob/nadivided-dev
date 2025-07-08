@@ -35,6 +35,87 @@ characters={
 		}
 	}
 
+	## Edsel Ford ##
+	SMI_Edsel_Ford = {
+		name = "Edsel Ford"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SMI/portrait_edsel_ford.dds"
+			}
+		}
+
+		country_leader = {
+			ideology = oligarchism
+			expire = "1965.1.1"
+			traits = {
+				constant_innovator
+				collector
+				undecided_leadership
+			}
+			id = 2
+		}
+	}
+
+	##  Ford SR ##
+	SMI_Henry_Ford = {
+		name = "Henry Ford"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SMI/portrait_henry_ford.dds"
+			}
+		}
+
+		country_leader = {
+			ideology = fascism_ideology
+			expire = "1947.4.7"
+			traits = {
+				mass_production
+				old_fashioned
+			}
+			id = 1
+		}
+	}
+
+	##  Henry Ford II ##
+	SMI_Henry_FordII = {
+		name = "Henry Ford II"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SMI/portrait_henry_fordII.dds"
+			}
+		}
+
+		country_leader = {
+			ideology = fascism_ideology
+			expire = "1965.1.1"
+			traits = {
+				industry_reformer
+			}
+			id = 3
+		}
+	}
+
+	##  Board_of_Directors ##
+	SMI_Board_of_Directors = {
+		name = "Board of Directors"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SMI/ford_board.dds"
+			}
+		}
+
+		country_leader = {
+			ideology = oligarchism
+			expire = "1965.1.1"
+			traits = {
+				corporate_governing_group
+				undecided_leadership
+			}
+			id = 4
+		}
+	}
+
+
 	## John Keracher ##
 	SMI_john_keracher = {
 		name = "John Keracher"
@@ -65,7 +146,7 @@ characters={
 			ideology = fascism_ideology
 			expire = "1965.1.1"
 			traits = {
-				
+			
 			}
 		}
 	}
@@ -74,7 +155,7 @@ characters={
 		name = "Union Council"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/SMI/leader_frank_fitzgerald.dds"
+				large = "gfx/leaders/SMI/Gfx_union_council.dds"
 			}
 		}
 		country_leader = {
@@ -84,7 +165,32 @@ characters={
 		}
 	}
 	######
-	
+	SMI_harry_bennett = {
+		name = "Harry Bennett"
+		portraits={
+			army={
+				small="gfx/interface/advisors/SMI_Harry_Bennett.dds"
+			}
+		}
+		advisor={
+			cost = 150
+			removal_cost=-1
+			slot=political_advisor
+			idea_token=SMI_harry_bennett
+			allowed={
+				original_tag=SMI
+			}
+			available = {
+				has_completed_focus = SMI_Promote_Harry_Bennett
+			}
+			traits={
+                prince_of_terror
+            }
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
 	SMI_peg={
 		name="Issac 'Peg Leg' White"
 		portraits={

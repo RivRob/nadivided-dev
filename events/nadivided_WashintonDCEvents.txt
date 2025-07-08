@@ -35,12 +35,34 @@ country_event = {
 
 	option = {
 		name = WashingtonDC.2.a
-		ai_chance = { factor = 50}
+		ai_chance = { 
+			modifier = {
+				OR = {
+					has_game_rule = {
+						rule = WDC_AI_BEHAVIOR
+						option = WDC_COMPANIES
+					}
+				}
+				factor = 0
+			}
+			factor = 50
+		}
 		add_political_power = 100
 	}
 	option = {
 		name = WashingtonDC.2.b
-		ai_chance = { factor = 20}
+		ai_chance = { 
+			modifier = {
+				OR = {
+					has_game_rule = {
+						rule = WDC_AI_BEHAVIOR
+						option = WDC_COMPANIES
+					}
+				}
+				factor = 0
+			}
+			factor = 20
+		}
 		add_political_power = 50
 		44 = {
 			add_extra_state_shared_building_slots = 1
@@ -53,7 +75,38 @@ country_event = {
 	}
 		option = {
 		name = WashingtonDC.2.c
-		ai_chance = { factor = 20}
+		ai_chance = { 
+			modifier = {
+				OR = {
+					has_game_rule = {
+						rule = WDC_AI_BEHAVIOR
+						option = WDC_HOOVER
+					}
+					has_game_rule = {
+						rule = WDC_AI_BEHAVIOR
+						option = WDC_SAD_HOOVER
+					}
+					has_game_rule = {
+						rule = WDC_AI_BEHAVIOR
+						option = WDC_SOCIALIST
+					}
+					has_game_rule = {
+						rule = WDC_AI_BEHAVIOR
+						option = WDC_ALF
+					}
+					has_game_rule = {
+						rule = WDC_AI_BEHAVIOR
+						option = WDC_FDR
+					}
+					has_game_rule = {
+						rule = WDC_AI_BEHAVIOR
+						option = WDC_MACARTHUR
+					}
+				}
+				factor = 0
+			}
+			factor = 20 
+		}
 		44 = {
 			add_extra_state_shared_building_slots = 2
 			add_building_construction = {
@@ -120,25 +173,10 @@ country_event = {
 				}
 			}
 		}
-		if = {
-			limit = {
-				has_dlc = "Together for Victory"
-			}
-			WDC = {
-				set_autonomy = {
-					target = SPA
-					autonomy_state = autonomy_satellite
-				}
-			}
-		}
-		if = {
-			limit = {
-				NOT = {
-					has_dlc = "Together for Victory"
-				}
-			}
-			WDC = {
-				puppet = SPA
+		WDC = {
+			set_autonomy = {
+				target = SPA
+				autonomy_state = autonomy_satellite
 			}
 		}
 	}
@@ -188,30 +226,45 @@ country_event = {
 				target = ROOT
 				transfer_troops = yes
 			}
+			SNJ = {
+				set_nationality = {
+					target_country = WDC
+					character = SNJ_MacDonald
+				}
+				set_nationality = {
+					target_country = WDC
+					character = SNJ_Barlow
+				}
+				set_nationality = {
+					target_country = WDC
+					character = SNJ_Mclarney
+				}
+				set_nationality = {
+					target_country = WDC
+					character = SNJ_Forrest
+				}
+				set_nationality = {
+					target_country = WDC
+					character = SNJ_Leimer
+				}
+				set_nationality = {
+					target_country = WDC
+					character = SNJ_Yehl
+				}
+				set_nationality = {
+					target_country = WDC
+					character = SNJ_Iersel
+				}
+			}
 		}
 	}
 	option = {
 		name = WashingtonDC.5.b
 		ai_chance = { factor = 20}
-		if = {
-			limit = {
-				has_dlc = "Together for Victory"
-			}
-			WDC = {
-				set_autonomy = {
-					target = ROOT
-					autonomy_state = autonomy_article_state
-				}
-			}
-		}
-		if = {
-			limit = {
-				NOT = {
-					has_dlc = "Together for Victory"
-				}
-			}
-			WDC = {
-				puppet = ROOT
+		WDC = {
+			set_autonomy = {
+				target = ROOT
+				autonomy_state = autonomy_article_state
 			}
 		}
 	}
@@ -290,13 +343,10 @@ country_event = {
 	title = WashingtonDC.8.t
 	desc = WashingtonDC.8.d
 	picture = GFX_report_event_generic_sign_treaty2
-
 	is_triggered_only = yes
-
 	trigger = {
 		#
 	}
-
 	option = {
 		name = WashingtonDC.8.a
 		ai_chance = { 
@@ -309,25 +359,10 @@ country_event = {
 				}
 			}
 		}
-		if = {
-			limit = {
-				has_dlc = "Together for Victory"
-			}
-			WDC = {
-				set_autonomy = {
-					target = ROOT
-					autonomy_state = autonomy_article_state
-				}
-			}
-		}
-		if = {
-			limit = {
-				NOT = {
-					has_dlc = "Together for Victory"
-				}
-			}
-			WDC = {
-				puppet = ROOT
+		WDC = {
+			set_autonomy = {
+				target = ROOT
+				autonomy_state = autonomy_article_state
 			}
 		}
 	}
@@ -342,7 +377,7 @@ country_event = {
 					value > 50
 				}
 			}
-	}
+		}
 		WDC = {
 			create_wargoal = {
 				target = ROOT
@@ -531,25 +566,10 @@ country_event = {
 				}
 			}
 		}
-		if = {
-			limit = {
-				has_dlc = "Together for Victory"
-			}
-			WDC = {
-				set_autonomy = {
-					target = ROOT
-					autonomy_state = autonomy_commune_republic
-				}
-			}
-		}
-		if = {
-			limit = {
-				NOT = {
-					has_dlc = "Together for Victory"
-				}
-			}
-			WDC = {
-				puppet = ROOT
+		WDC = {
+			set_autonomy = {
+				target = ROOT
+				autonomy_state = autonomy_commune_republic
 			}
 		}
 	}

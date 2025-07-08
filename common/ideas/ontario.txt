@@ -6,31 +6,31 @@ ideas = {
 ###                     TEMPLATE                     ###
 ########################################################
 
-		PAB_template = {
-            picture = GFX_idea_civialian_economy
+		# PAB_template = {
+        #     picture = GFX_idea_civialian_economy
 			
-			allowed = {
-				tag = PAB
-			}
+		# 	allowed = {
+		# 		tag = PAB
+		# 	}
 			
-			available = {
+		# 	available = {
 
-			}
+		# 	}
 			
-			cancel = {
+		# 	cancel = {
 
-			}
+		# 	}
 
-            allowed_civil_war = {
-                always = yes
-            }
+        #     allowed_civil_war = {
+        #         always = yes
+        #     }
 
-            removal_cost = -1
+        #     removal_cost = -1
 
-            modifier = {
+        #     modifier = {
 				
-			}
-		}
+		# 	}
+		# }
 
 ########################################################
 #
@@ -263,7 +263,7 @@ ideas = {
 			}
 		}
 		PON_Ontario_Fascist_Army = {
-			picture = idea_fascistcan_soldier
+			picture = generic_fascist_workers
 			allowed_civil_war = {
 				always = yes
 			}
@@ -271,8 +271,9 @@ ideas = {
             modifier = {
 				army_infantry_attack_factor = 0.10
 				army_infantry_defence_factor = 0.03
-				conscription_factor = 0.05
+				conscription = 0.05
 				mobilization_speed = 0.05 
+				justify_war_goal_time = -0.25
 			}
 		}
 		PON_Fascist_Cops = {
@@ -283,11 +284,10 @@ ideas = {
 			removal_cost = -1
             modifier = {
 				resistance_damage_to_garrison = -0.10
-				
 			}
 		}
 		PON_Fascist_Medical_community = {
-			picture = police_hat
+			picture = chi_army_corruption
 			allowed_civil_war = {
 				always = yes
 			}
@@ -297,6 +297,47 @@ ideas = {
 					build_cost_ic = -0.1
 					instant = yes
 				}
+			}
+		}
+		CAN_Maritimes_Primacy_idea = { #SHH skorp it fits here.. 
+			picture = soviet_german_friendship
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1 
+			modifier = {
+				production_speed_dockyard_factor = 0.1
+				industrial_capacity_dockyard = 0.1
+			}
+		}
+		CAN_saskatchewan_uranium = {
+			picture = generic_research_bonus
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				research_speed_factor = 0.05
+			}
+		}
+		CAN_northern_gold_production = {
+			picture = SPR_seize_the_gold_reserves
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.1
+			}
+		}
+		CAN_development_funding = {
+			picture = NOR_printing_money
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.1 
 			}
 		}
 ######################Communism########################
@@ -331,8 +372,8 @@ ideas = {
 			}
 			removal_cost = -1
             modifier = {
-				conscription_factor = -0.10
-				stability_factor = -0.025
+				stability_factor = -0.10
+				political_power_factor = -0.05
 			}
 		}
 
@@ -375,7 +416,7 @@ ideas = {
 
 
 		PON_Fully_Planned_Economy = {
-			picture = bastionofstarvation
+			picture = new_economic_policy
 			allowed_civil_war = {
 				always = yes
 			}
@@ -429,7 +470,7 @@ ideas = {
 			}
 			removal_cost = -1
             modifier = {
-				local_resources = 0.15
+				local_resources_factor = 0.15
 			}
 		}
 
@@ -453,7 +494,20 @@ ideas = {
 			}
 			removal_cost = -1
             modifier = {
-				send_volunteer_size = 3
+				send_volunteer_size = 6
+				send_volunteer_divisions_required = -0.25
+			}
+		}
+
+		PON_force_intervention_idea = {
+			picture = FRA_scw_intervention_nationalists_focus
+			allowed_civil_war = {
+				always = yes 
+			}
+			removal_cost = -1
+			modifier = {
+				justify_war_goal_time = -0.25
+				join_faction_tension = -0.5
 			}
 		}
 
@@ -529,10 +583,10 @@ ideas = {
 			}
 			removal_cost = -1
             modifier = {
-				production_speed_buildings_factor = 0.05 
-				research_speed_factor = 0.02
-				industrial_capacity_factory = 0.03
-				industrial_capacity_dockyard = 0.02
+				production_speed_buildings_factor = 0.15 
+				research_speed_factor = 0.05
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.025
 				political_power_cost = 0.4
 			}
 		}
@@ -658,7 +712,7 @@ ideas = {
 			}
 		}
 		PON_Women_in_the_factories = {
-			picture = X
+			picture = FRA_factory_strikes
 			allowed_civil_war = {
 				always = yes
 			}
@@ -697,7 +751,7 @@ ideas = {
 			removal_cost = -1
 			modifier = {			
 				political_power_gain = 0.15
-				consumer_goods_factor = -0.09
+				consumer_goods_factor=-0.27
 				justify_war_goal_time = -0.45
 			}
 		}
@@ -713,7 +767,7 @@ ideas = {
 			}
 		}
 		PON_Ontarioite_Auto_Assembly_lines = {
-			picture = GFX_idea_SMI_automotive_capital
+			picture = HUN_mwg_raba
 			allowed_civil_war = {
 				always = yes
 			}
