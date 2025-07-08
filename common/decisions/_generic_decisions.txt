@@ -260,6 +260,68 @@ propaganda_efforts = {
 		}
 	}
 
+	war_propaganda_casualties = { 
+
+		icon = generic_prepare_civil_war
+
+		available = {
+			has_casualties_war_support < 0
+		}
+
+		visible = {
+			has_war_with_non_exiled_country = yes
+		}
+
+		fire_only_once = no
+
+		days_remove = 180
+		
+		remove_trigger = {
+			has_war = no
+        }
+		
+		cost = 100
+
+		modifier = {
+			weekly_casualties_war_support = 0.006
+		}
+
+		
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 10 #AI should probably just choose this one for general purposes.
+				has_war = yes
+				has_war_support < 0.7
+			}
+			modifier = {
+				add = 20
+				has_war = yes
+				has_war_support < 0.5
+			}
+			modifier = {
+				add = 30
+				has_war = yes
+				has_war_support < 0.3
+			}
+			modifier = {
+				add = 201 #ie; consider prio idea
+				has_war = yes
+				has_casualties_war_support < -0.25
+			}
+			modifier = {
+				factor = 0
+				has_manpower < 100000
+				has_political_power < 250
+				OR = {
+					has_idea = volunteer_only
+					has_idea = limited_conscription
+					has_idea = extensive_conscription
+				}
+			}
+		}
+	}
+
 	#Propaganda campaign against a country in offensive that has caused a lot of tension and started a war
 	war_propaganda_against_warmonger = {
 
@@ -493,6 +555,10 @@ war_measures = {
                     has_government = democratic
                     has_war_support > 0.79
                 }
+				AND = {
+                    has_government = progressivism
+					has_war_support > 0.79
+                }
                 AND = {
                     has_government = communism
                     has_war_support > 0.79
@@ -500,6 +566,13 @@ war_measures = {
                 AND = {
                     has_government = fascism
                     OR = {
+                        has_war_support > 0.89
+                        surrender_progress > 0
+                    }
+                }
+				AND = {
+                    has_government = longism
+					OR = {
                         has_war_support > 0.89
                         surrender_progress > 0
                     }
@@ -559,6 +632,10 @@ war_measures = {
                     has_government = democratic
                     has_war_support > 0.79
                 }
+				AND = {
+                    has_government = progressivism
+					has_war_support > 0.79
+                }
                 AND = {
                     has_government = communism
                     has_war_support > 0.79
@@ -566,6 +643,13 @@ war_measures = {
                 AND = {
                     has_government = fascism
                     OR = {
+                        has_war_support > 0.89
+                        surrender_progress > 0
+                    }
+                }
+				AND = {
+                    has_government = longism
+					OR = {
                         has_war_support > 0.89
                         surrender_progress > 0
                     }
@@ -655,6 +739,41 @@ war_measures = {
 			}
 		}
     }
+	diversify_special_forces = {
+
+		icon = GFX_decision_generic_military
+
+		available = {
+			date > 1940.1.1
+		}
+
+		visible = {
+			has_dlc = "Arms Against Tyranny"
+			NOT = {
+				OR = {
+					#tag = ENG #has a focus
+					#tag = USA #has a focus
+					#tag = SOV #has a focus
+					#tag = JAP #has a focus
+				}
+			} 
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+
+		complete_effect = {
+			add_potential_special_forces_tree = yes
+		}
+		ai_will_do = {
+			factor = 201
+			modifier = {
+				factor = 0
+				is_major = no
+			}
+		}
+	}
 }
 
 foreign_politics = {
@@ -908,7 +1027,13 @@ special_projects = {
 			}
 
 			visible = {
-				always = yes
+				if = { # Outdated by this dlc
+					limit = {
+						NOT = {
+							has_dlc = "By Blood Alone"
+						}
+					}
+				}
 			}
 
 			fire_only_once = yes
@@ -956,7 +1081,13 @@ special_projects = {
 			}
 
 			visible = {
-				always = yes
+				if = { # Outdated by this dlc
+					limit = {
+						NOT = {
+							has_dlc = "By Blood Alone"
+						}
+					}
+				}
 			}
 
 			fire_only_once = yes
@@ -991,7 +1122,7 @@ special_projects = {
 				NOT = {
 					has_game_rule = {
 						rule = allow_volunteers
-						option = yes
+						option = BLOCKED
 					}
 					has_war = yes
 				}
@@ -1003,7 +1134,7 @@ special_projects = {
 				NOT = {
 					has_game_rule = {
 						rule = allow_volunteers
-						option = yes
+						option = BLOCKED
 					}
 				}
 			}

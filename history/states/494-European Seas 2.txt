@@ -1,17 +1,15 @@
-
-state={
-	id=494
-	name="STATE_494"
-
-	provinces={
-		6829 6830 6831 6837 6838 
-	}
+state = {
+	id = 494
+	name = "STATE_494"
 	history = {
 		owner = GAY
-		add_core_of = GAY
-		add_core_of = GRE
 	}
-	manpower=2000
-	buildings_max_level_factor=1.000
-	state_category=rural
+
+	provinces = {
+		7027
+	}
+	manpower = 2000
+	buildings_max_level_factor = 1
+	state_category = wasteland
+	local_supplies = 0
 }

@@ -98,66 +98,199 @@ BLACK_BELT_EVENT = {
 	}
 }
 
-allow_wargoals = {
-	name = "RULE_ALLOW_WARGOALS"
-	group = "RULE_GROUP_GENERAL_FOREIGN_POLICY"
-	icon = "GFX_wargoals"
-	option = {
-		name = "ALWAYS_FREE"
-		text = RULE_OPTION_ALWAYS_FREE
-		desc = "RULE_ALLOW_WARGOALS_ALWAYS_FREE_DESC"
-	}
+SMI_AI_BEHAVIOR = {
+	name = "SMI_AI_BEHAVIOR"
+	group = "RULE_GROUP_AI_BEHAVIOR"
 	default = {
-		name = "LIMITED"
-		text = "RULE_OPTION_LIMITED"
-		desc = "RULE_ALLOW_WARGOALS_LIMITED_DESC"
+		name = "GAME_RULES_NONE"
+		text = "GAME_RULES_NONE_TXT"
+		desc = "GAME_RULES_NONE_DESC"
+		allow_achievements = yes 
 	}
 	option = {
-		name = "FREE_25"
-		text = RULE_OPTION_FREE_25
-		desc = "RULE_ALLOW_WARGOALS_FREE_25_DESC"
+		name = "SMI_HIST_BEHAVIOR"
+		text = "SMI_HIST_BEHAVIOR_TXT"
+		desc = "SMI_HIST_BEHAVIOR_DESC"
+		allow_achievements = yes
 	}
 	option = {
-		name = "FREE_50"
-		text = RULE_OPTION_FREE_50
-		desc = "RULE_ALLOW_WARGOALS_FREE_50_DESC"
+		name = "SMI_ALT_COMMUNISM"
+		text = "SMI_ALT_COMMUNISM_TXT"
+		desc = "SMI_ALT_COMMUNISM_DESC"
+		allow_achievements = yes  
 	}
 	option = {
-		name = "FREE_75"
-		text = RULE_OPTION_FREE_75
-		desc = "RULE_ALLOW_WARGOALS_FREE_75_DESC"
+		name = "SMI_REPUBLICANS"
+		text = "SMI_REPUBLICANS_TXT"
+		desc = "SMI_REPUBLICANS_DESC"
+		allow_achievements = yes
 	}
 	option = {
-		name = "FREE_100"
-		text = RULE_OPTION_FREE_100
-		desc = "RULE_ALLOW_WARGOALS_FREE_100_DESC"
-	}
-	option = {
-		name = "FOCUSES_ONLY"
-		text = RULE_OPTION_FOCUSES_ONLY
-		desc = "RULE_ALLOW_WARGOALS_FOCUSES_ONLY_DESC"
+		name = "SMI_BLACK_LEGION"
+		text = "SMI_BLACK_LEGION_TXT"
+		desc = "SMI_BLACK_LEGION_DESC"
+		allow_achievements = yes 
 	}
 }
-allow_access = {
-	name = "RULE_ALLOW_MILITARY_ACCESS"
-	group = "RULE_GROUP_GENERAL_FOREIGN_POLICY"
-	icon = "GFX_military_access_docking_rights"
+
+SMN_AI_BEHAVIOR = {
+	name = "SMN_AI_BEHAVIOR"
+	group = "RULE_GROUP_AI_BEHAVIOR"
 	default = {
-		name = "FREE"
-		text = RULE_OPTION_FREE
-		desc = "RULE_ALLOW_ACCESS_FREE_DESC"
+		name = "GAME_RULES_NONE"
+		text = "GAME_RULES_NONE_TXT"
+		desc = "GAME_RULES_NONE_DESC"
+		allow_achievements = yes 
 	}
 	option = {
-		name = "SAME_IDEOLOGY"
-		text = "RULE_OPTION_SAME_IDEOLOGY"
-		desc = "RULE_ALLOW_ACCESS_SAME_IDEOLOGY_DESC"
-	}
-	option = {
-		name = "BLOCKED"
-		text = RULE_OPTION_BLOCKED
-		desc = "RULE_ALLOW_ACCESS_BLOCKED_DESC"
+		name = "SMN_HIST_BEHAVIOR"
+		text = "SMN_HIST_BEHAVIOR_TXT"
+		desc = "SMN_HIST_BEHAVIOR_DESC"
+		allow_achievements = yes
 	}
 }
+
+SCA_AI_BEHAVIOR = {
+	name = "SCA_AI_BEHAVIOR"
+	group = "RULE_GROUP_AI_BEHAVIOR"
+	default = {
+		name = "GAME_RULES_NONE"
+		text = "GAME_RULES_NONE_TXT"
+		desc = "GAME_RULES_NONE_DESC"
+		allow_achievements = yes 
+	}
+	option = {
+		name = "SCA_COMMUNIST"
+		text = "SCA_COMMUNIST_TXT"
+		desc = "SCA_COMMUNIST_DESC"
+		allow_achievements = yes 
+	}
+	option = {
+		name = "SCA_EPIC"
+		text = "SCA_EPIC_TXT"
+		desc = "SCA_EPIC_DESC"
+		allow_achievements = yes 
+	}
+	option = {
+		name = "SCA_LEGION"
+		text = "SCA_LEGION_TXT"
+		desc = "SCA_LEGION_DESC"
+		allow_achievements = yes 
+	}
+	option = {
+		name = "SCA_DISNEY"
+		text = "SCA_DISNEY_TXT"
+		desc = "SCA_DISNEY_DESC"
+		allow_achievements = yes 
+	}
+}
+
+SOH_AI_BEHAVIOR = {
+	name = "SOH_AI_BEHAVIOR"
+	group = "RULE_GROUP_AI_BEHAVIOR"
+	default = {
+		name = "GAME_RULES_NONE"
+		text = "GAME_RULES_NONE_TXT"
+		desc = "GAME_RULES_NONE_DESC"
+		allow_achievements = yes 
+	}
+	option = {
+		name = "SOH_STANDARD_BEHAVIOR"
+		text = "SOH_STANDARD_BEHAVIOR_TXT"
+		desc = "SOH_STANDARD_BEHAVIOR_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "SOH_DEMOCRATIC_BEHAVIOR"
+		text = "SOH_DEMOCRATIC_BEHAVIOR_TXT"
+		desc = "SOH_DEMOCRATIC_BEHAVIOR_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "SOH_MOB_BEHAVIOR"
+		text = "SOH_MOB_BEHAVIOR_TXT"
+		desc = "SOH_MOB_BEHAVIOR_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "SOH_COMMUNISM_BEHAVIOR"
+		text = "SOH_COMMUNISM_BEHAVIOR_TXT"
+		desc = "SOH_COMMUNISM_BEHAVIOR_DESC"
+		allow_achievements = yes
+	}
+}
+
+WDC_AI_BEHAVIOR = {
+	name = "WDC_AI_BEHAVIOR"
+	group = "RULE_GROUP_AI_BEHAVIOR"
+	default = {
+		name = "GAME_RULES_NONE"
+		text = "GAME_RULES_NONE_TXT"
+		desc = "GAME_RULES_NONE_DESC"
+		allow_achievements = yes 
+	}
+	option = {
+		name = "WDC_SOCIALIST"
+		text = "WDC_SOCIALIST_TXT"
+		desc = "WDC_SOCIALIST_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "WDC_FDR"
+		text = "WDC_FDR_TXT"
+		desc = "WDC_FDR_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "WDC_ALF"
+		text = "WDC_ALF_TXT"
+		desc = "WDC_ALF_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "WDC_HOOVER"
+		text = "WDC_HOOVER_TXT"
+		desc = "WDC_HOOVER_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "WDC_SAD_HOOVER"
+		text = "WDC_SAD_HOOVER_TXT"
+		desc = "WDC_SAD_HOOVER_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "WDC_MACARTHUR"
+		text = "WDC_MACARTHUR_TXT"
+		desc = "WDC_MACARTHUR_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = "WDC_COMPANIES"
+		text = "WDC_COMPANIES_TXT"
+		desc = "WDC_COMPANIES_DESC"
+		allow_achievements = yes
+	}
+}
+
+######superevent stuff
+rule_event_audio = {
+	name = "RULE_EVENT_AUDIO"
+	group = "RULE_GROUP_IMPORTANT_EVENTS"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_EVENT_AUDIO_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = EVENT_AUDIO_DISABLED
+		text = "RULE_OPTION_EVENT_AUDIO_DISABLED"
+		desc = "RULE_OPTION_EVENT_AUDIO_DISABLED_DESC"
+		allow_achievements = yes
+	}
+}
+######superevent stuff
 
 allow_release_nations = {
 	name = "RULE_ALLOW_RELEASE_NATIONS"

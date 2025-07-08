@@ -203,9 +203,12 @@
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 100
-		}
+		} 
 		completion_reward = { 
-			load_oob = "SHI_mainislandmilitas"
+			custom_effect_tooltip = SHI_raise_the_native_militas_tt 
+			hidden_effect = {
+				load_oob = "SHI_mainislandmilitas" 
+			}
 		}
     }
 	focus = {
@@ -701,7 +704,7 @@
 			}
 		}
     }
-	focus = {
+	focus = { 
 		id = SHI_Leper_Paratroopers
 		icon = GFX_focus_SHI_molokai_lepers_paratroopers
 		relative_position_id = SHI_helping_the_Kalaupapa_Leper_Settlement
@@ -714,7 +717,10 @@
 			factor = 50
 		}
 		completion_reward = { 
-			load_oob = "SHI_Leper_Paratroopers"
+			custom_effect_tooltip = SHI_Leper_Paratroopers_tt
+			hidden_effect = {
+				load_oob = "SHI_Leper_Paratroopers"
+			}
 		}
     }
 	focus = {
@@ -754,7 +760,10 @@
 			factor = 100
 		}
 		completion_reward = { 
-			load_oob = "SHI_oahumilitas"
+			custom_effect_tooltip = SHI_Oahu_Militas_tt
+			hidden_effect = {
+				load_oob = "SHI_oahumilitas"
+			}
 		}
     }
 	focus = {
@@ -1498,7 +1507,7 @@
 			has_completed_focus = SHI_Developing_The_Islands
         }
 		x = 45
-		y = 5
+		y = 0
 		cost = 3.7
 		available_if_capitulated = yes
 		ai_will_do = {
@@ -1958,11 +1967,11 @@ add_popularity = {
 			factor = 100
 		}
 		completion_reward = { 
-		add_doctrine_cost_reduction = {
-		cost_reduction = 0.8
-		uses = 3
-		category = land_doctrine
-		}
+			add_doctrine_cost_reduction = {
+			cost_reduction = 0.8
+			uses = 3
+			category = land_doctrine
+			}
 		}
     }
 	focus = {
@@ -2781,9 +2790,9 @@ add_popularity = {
     }
 	focus = {
 		id = SHI_foreign_policy 
-		icon = GFX_Goal_Unknown
-		x = 45
-		y = 20
+		icon = GFX_focus_SHI_foreign_policy 
+		x = 63
+		y = 0
 		cost = 1
 		available_if_capitulated = no
 		available = {
@@ -2801,34 +2810,42 @@ add_popularity = {
 			add_ideas = SHI_continental_ambition
 		}
     }
-	focus = {
-		id = SHI_polynesian_volunteers
-		icon = GFX_Goal_Unknown
-		x = 47
-		y = 21
-		cost = 5
-		prerequisite = {focus = SHI_foreign_policy}
-		available = {
-			SHI = {
-				has_government = longism	
-			}	
-		}
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 100
-		}
-		completion_reward = { 	
-			add_ideas = SHI_polynesian_volunteers
-			add_manpower = 20000
-		}
-    }
+	# #focus = {
+	# 	id = SHI_polynesian_volunteers
+	# 	icon = GFX_Goal_Unknown
+	# 	x = 4
+	# 	y = 1
+	# 	cost = 5
+
+	# 	relative_position_id = SHI_foreign_policy
+	# 	prerequisite = { focus = SHI_foreign_policy }
+	# 	cost = 5
+
+	# 	available = {
+	# 		SHI = {
+	# 			has_government = longism	
+	# 		}	
+	# 	}
+	# 	available_if_capitulated = yes
+	# 	ai_will_do = {
+	# 		factor = 100
+	# 	}
+	# 	completion_reward = { 	
+	# 		add_ideas = SHI_polynesian_volunteers
+	# 		add_manpower = 20000
+	# 	}
+    # #}
 	focus = {
 		id = SHI_return_to_the_continent
-		icon = GFX_Goal_Unknown
-		x = 45
-		y = 21
+		icon = GFX_focus_SHI_Return_tomainland
+		x = 2
+		y = 1
 		cost = 5
-		prerequisite = {focus = SHI_foreign_policy}
+
+		relative_position_id = SHI_foreign_policy
+		prerequisite = { focus = SHI_foreign_policy }
+		cost = 5
+
 		bypass = {
 		NOT = {
 		country_exists = BAJ	
@@ -2853,11 +2870,13 @@ add_popularity = {
     }
 	focus = {
 		id = SHI_alaska
-		icon = GFX_Goal_Unknown
-		x = 41
-		y = 21
+		icon = GFX_focus_SHI_alaska
+		x = -2
+		y = 1
 		cost = 5
-		prerequisite = {focus = SHI_foreign_policy}
+
+		relative_position_id = SHI_foreign_policy
+		prerequisite = { focus = SHI_foreign_policy }
 		bypass = {
 		NOT = {
 		country_exists = SAK	
@@ -2881,10 +2900,12 @@ add_popularity = {
     }
 	focus = {
 		id = SHI_attack_cali
-		icon = GFX_Goal_Unknown
-		x = 45
-		y = 22
+		icon = GFX_focus_SHI_attack_cali
+		x = -1
+		y = 1
 		cost = 5
+
+		relative_position_id = SHI_return_to_the_continent
 		prerequisite = {focus = SHI_return_to_the_continent focus = SHI_ally_magon}
 		bypass = {
 			OR = {
@@ -2918,11 +2939,13 @@ add_popularity = {
     }
 	focus = {
 		id = SHI_ally_magon
-		icon = GFX_Goal_Unknown
-		x = 43
-		y = 21
+		icon = GFX_focus_SHI_ally_magon
+		x = 0
+		y = 1
 		cost = 5
-		prerequisite = {focus = SHI_foreign_policy}
+
+		relative_position_id = SHI_foreign_policy
+		prerequisite = { focus = SHI_foreign_policy }
 		mutually_exclusive = { focus = SHI_return_to_the_continent}
 		bypass = {
 		NOT = {

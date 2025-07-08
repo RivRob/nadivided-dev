@@ -40,6 +40,10 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/martiallaw.dds"
 	}
 	spriteType = {
+		name = "GFX_event_harry_bridges"
+		texturefile = "gfx/event_pictures/event_harry_bridges.dds"
+	}
+	spriteType = {
 
 		name = "GFX_oregon_kkk"
 		texturefile = "gfx/event_pictures/cursed.dds"
@@ -227,8 +231,8 @@ spriteTypes = {
 }
     spriteType = {
 		name = "GFX_report_event_1936"
-		texturefile = "gfx/event_pictures/report_event_1936.dds"
-}
+		texturefile = "gfx/event_pictures/report_1936elections.dds"
+	}
 
     spriteType = {
 		name = "GFX_texan_lobbists"
@@ -692,6 +696,10 @@ spriteType = {
 		name = "GFX_floridabeach"
 		texturefile = "gfx/event_pictures/floridabeach.dds"
 	}
+	spriteType = {
+		name = "GFX_tampa_bay_uprising"
+		texturefile = "gfx/event_pictures/tampa_bay_uprising.dds"
+	}
 	SpriteType = {
 		name = "GFX_alabama72"
 		texturefile = "gfx/event_pictures/alabama72.dds"
@@ -798,12 +806,40 @@ spriteType = {
 		texturefile = "gfx/event_pictures/lovecraft_stare.dds"
 	}
 	spriteType = {
-		name = "GFX_providence_buliding"
-		texturefile = "gfx/event_pictures/providence_buliding.dds"
+		name = "GFX_SRI_start_event"
+		texturefile = "gfx/event_pictures/SRI_start_event.dds"
 	}
+	# spriteType = {
+	# 	name = "GFX_providence_buliding"
+	# 	texturefile = "gfx/event_pictures/providence_buliding.dds"
+	# } # doesnt exist
 	spriteType = {
 		name = "GFX_worker_strike"
 		texturefile = "gfx/event_pictures/worker_strike.dds"
+	}
+	spriteType = {
+		name = "GFX_california_dust_bowl"
+		texturefile = "gfx/event_pictures/california_dust_bowl.dds"
+	}
+	spriteType = {
+		name = "GFX_california_patton_march"
+		texturefile = "gfx/event_pictures/california_patton_march.dds"
+	}
+	spriteType = {
+		name = "GFX_california_sinclair_speaks"
+		texturefile = "gfx/event_pictures/california_sinclair_speaks.dds"
+	}
+	spriteType = {
+		name = "GFX_california_political_violence"
+		texturefile = "gfx/event_pictures/california_political_violence.dds"
+	}
+	spriteType = {
+		name = "GFX_california_patton_is_here"
+		texturefile = "gfx/event_pictures/california_patton_is_here.dds"
+	}
+	spriteType = {
+		name = "GFX_california_peoples_republic_declared"
+		texturefile = "gfx/event_pictures/california_peoples_republic_declared.dds"
 	}
 	spriteType = {
 		name = "GFX_report_event_SRI_lovecraft"
@@ -817,9 +853,21 @@ spriteType = {
 		name = "GFX_michigan12"
 		texturefile = "gfx/event_pictures/michigan12.dds"
 	}
-	spriteType = {
+	spriteType = { #needs adjustments
 		name = "GFX_michigan17"
 		texturefile = "gfx/event_pictures/michigan17.dds"
+	}
+	spriteType = { #missing
+		name = "GFX_michigan19"
+		texturefile = "gfx/event_pictures/michigan19.dds"
+	}
+	spriteType = { #missing
+		name = "GFX_michigan20"
+		texturefile = "gfx/event_pictures/michigan20.dds"
+	}
+	spriteType = {
+		name = "GFX_michigan22"
+		textureFile = "gfx/event_pictures/michigan22.dds"
 	}
 	spriteType = {
 		name = "GFX_newsevent43"
@@ -837,6 +885,230 @@ spriteType = {
 		name = "GFX_newsevent46"
 		texturefile = "gfx/event_pictures/newsevent46.dds"
 	}
+	spriteType = {
+		name = "GFX_newsevent47"
+		texturefile = "gfx/event_pictures/newsevent46.dds"
+	}
+	spriteType = {
+		name = "GFX_newsevent48"
+		texturefile = "gfx/event_pictures/newsevent48.dds"
+	}
+	spriteType = {
+		name = "GFX_newsevent_caleeforni"
+		texturefile = "gfx/event_pictures/newsevent_caleeforni.dds"
+	}
+	spriteType = {
+		name = "GFX_newsevent_utuhguh"
+		texturefile = "gfx/event_pictures/newsevent_utuhguh.dds"
+	}
+	spriteType = {
+		name = "GFX_newsevent_maoist_washington_soldiers"
+		texturefile = "gfx/event_pictures/newsevent_maoist_washington_soldiers.dds"
+	}
+	spriteType = {
+		name = "GFX_newsevent_legion_wins_real"
+		texturefile = "gfx/event_pictures/newsevent_legion_wins_real.dds"
+	}
+	spriteType = {
+		name = "GFX_newsevent_longshoreman_strike"
+		texturefile = "gfx/event_pictures/newsevent_longshoreman_strike.dds"
+	}
+	spriteType = {
+		name = "GFX_newsevent_communist_california_gets_real"
+		texturefile = "gfx/event_pictures/newsevent_communist_california_gets_real.dds"
+	}
+	
+	####### INDIANA KLANTARDS
+	###########################
+	
+	spriteType = {
+		name = "GFX_sin_klantards_1"
+		texturefile = "gfx/event_pictures/sin_klantards_1.dds"
+	}
+	spriteType = {
+		name = "GFX_sin_klantards_2"
+		texturefile = "gfx/event_pictures/sin_klantards_2.dds"
+	}
+	spriteType = {
+		name = "GFX_sin_capitol_1"
+		texturefile = "gfx/event_pictures/sin_capitol_1.dds"
+	}
+	
+	####### CHICAGO COMMUNISTS
+	###########################
+	
+	spriteType = {
+		name = "GFX_commie_chicago_event"
+		texturefile = "gfx/event_pictures/commie_chicago_event.dds"
+	}
+	spriteType = {
+		name = "GFX_commie_chi_reunion_event"
+		texturefile = "gfx/event_pictures/commie_chi_reunion_event.dds"
+	}
+	
+	####### MINNESOTA MOBSTERS
+	############################
+	
+	spriteType = {
+		name = "GFX_minnesota_mob_coup"
+		texturefile = "gfx/event_pictures/minnesota_mob_coup.dds"
+	}
+	####
+	spriteType = {
+		name = "GFX_ohio_gang_meetup"
+		texturefile = "gfx/event_pictures/ohio_gang_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ohio_gang_scandal_1"
+		texturefile = "gfx/event_pictures/ohio_gang_scandal_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ohio_gang_scandal_2"
+		texturefile = "gfx/event_pictures/ohio_gang_scandal_2.dds"
+	}
+	spriteType = {
+		name = "GFX_ohio_gang_sitting"
+		texturefile = "gfx/event_pictures/ohio_gang_sitting.dds"
+	}
+
+
+
+    #### SC REWORK
+	##########################
+
+	spriteType = {
+		name = "GFX_chad_coleman"
+		texturefile = "gfx/event_pictures/chad_coleman.dds"
+	}
+
+	spriteType = {
+		name = "GFX_maybanks_announces"
+		texturefile = "gfx/event_pictures/maybanks_announces.dds"
+	}
+
+	spriteType = {
+		name = "GFX_the_coleman"
+		texturefile = "gfx/event_pictures/the_coleman.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_cotton_smoking"
+		texturefile = "gfx/event_pictures/cotton_smoking.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_aw_shit_here_come_pelley"
+		texturefile = "gfx/event_pictures/aw_shit_here_come_pelley.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_johnson_sitting"
+		texturefile = "gfx/event_pictures/johnson_sitting.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_cotton_ed_ugly"
+		texturefile = "gfx/event_pictures/cotton_ed_ugly.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_me_and_the_boys"
+		texturefile = "gfx/event_pictures/me_and_the_boys.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_sliver_legion_attack"
+		texturefile = "gfx/event_pictures/sliver_legion_attack.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_johnson_telephone"
+		texturefile = "gfx/event_pictures/johnson_telephone.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_manning_ballin"
+		texturefile = "gfx/event_pictures/manning_ballin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_montana1"
+		texturefile = "gfx/event_pictures/montana1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_montana2"
+		texturefile = "gfx/event_pictures/montana2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_montana3"
+		texturefile = "gfx/event_pictures/montana3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_montana4"
+		texturefile = "gfx/event_pictures/montana4.dds"
+	}
+	
+	spriteType = {
+    name = "GFX_montana5"
+    texturefile = "gfx/event_pictures/montana5.dds"
+	}
+
+	spriteType = {
+    name = "GFX_montana6"
+    texturefile = "gfx/event_pictures/montana6.dds"
+	}	
+
+	spriteType = {
+    name = "GFX_montana7"
+    texturefile = "gfx/event_pictures/montana7.dds"
+	}
+
+	spriteType = {
+    name = "GFX_montana8"
+    texturefile = "gfx/event_pictures/montana8.dds"
+	}
+
+	spriteType = {
+    name = "GFX_montana9"
+    texturefile = "gfx/event_pictures/montana9.dds"
+	}
+
+	spriteType = {
+    name = "GFX_montana10"
+    texturefile = "gfx/event_pictures/montana10.dds"
+	}
+
+	spriteType = {
+    name = "GFX_montana11"
+    texturefile = "gfx/event_pictures/montana11.dds"
+	}
+	
+	###########################
+	###WASHINGTON
+	#############
+	
+	spriteType = {
+	name = "GFX_washington_maryland_reclamation_1"
+	texturefile = "gfx/event_pictures/washington_maryland_reclamation_1.dds"
+	}
+	
+	###########################
+	###VERMONT
+	#############
+	
+	spriteType = {
+	name = "GFX_vermont_greenmountain_coup_1"
+	texturefile = "gfx/event_pictures/vermont_greenmountain_coup_1.dds"
+	}
+	
+	spriteType = {
+	name = "GFX_vermont_greenmountain_coup_2"
+	texturefile = "gfx/event_pictures/vermont_greenmountain_coup_2.dds"
+	}
+	
 }#END
 
 

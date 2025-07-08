@@ -6,34 +6,34 @@ ideas = {
 ###                     TEMPLATE                     ###
 ########################################################
 
-		PAB_template = {
-            picture = GFX_idea_civialian_economy
+		# PAB_template = {
+        #     picture = GFX_idea_civialian_economy
 			
-			allowed = {
-				tag = PAB
-			}
+		# 	allowed = {
+		# 		tag = PAB
+		# 	}
 			
-			available = {
+		# 	available = {
 
-			}
+		# 	}
 			
-			cancel = {
+		# 	cancel = {
 
-			}
+		# 	}
 
-            allowed_civil_war = {
-                always = yes
-            }
+        #     allowed_civil_war = {
+        #         always = yes
+        #     }
 
-            removal_cost = -1
+        #     removal_cost = -1
 
-            modifier = {
+        #     modifier = {
 				
-			}
-		}
+		# 	}
+		# }
 
 ########################################################
-SAR_Arkansas_officers = {
+SAR_Arkansas_Officers = {
             picture = SAR_officer_arkansas
 			
 			allowed = {
@@ -66,7 +66,7 @@ SAR_Arkansas_officers = {
 			}
 
 			allowed_civil_war = {
-				always = YES
+				always = yes
 			}
 
 			removal_cost = -1
@@ -89,13 +89,13 @@ SAR_Arkansas_officers = {
 		}
 
 		allowed_civil_war = {
-			always = YES
+			always = yes
 		}
 
 		removal_cost = -1
 
 		modifier = {
-			consumer_goods_factor = 0.1
+			consumer_goods_factor=0.3
 			stability_factor = -0.25
 			production_speed_buildings_factor = -0.3
 			industrial_capacity_factory	= -0.15
@@ -111,7 +111,7 @@ SAR_Arkansas_officers = {
 		}
 
 		allowed_civil_war = {
-			always = YES
+			always = yes
 		}
 
 		removal_cost = -1
@@ -132,7 +132,7 @@ SAR_Arkansas_officers = {
 		}
 
 		allowed_civil_war = {
-			always = YES
+			always = yes
 		}
 
 		removal_cost = -1
@@ -154,7 +154,7 @@ SAR_Arkansas_officers = {
 		}
 
 		allowed_civil_war = {
-			always = YES
+			always = yes
 		}
 
 		removal_cost = -1
@@ -217,7 +217,7 @@ SAR_Bankrupt2 = {
             modifier = {
                 production_speed_infrastructure_factor = 0.25
                 production_speed_industrial_complex_factor = 0.1
-                consumer_goods_factor = -0.05
+                consumer_goods_factor=-0.15
                 conscription = 0.01
             }
         }
@@ -235,7 +235,7 @@ SAR_Bankrupt2 = {
 
             modifier = {
               production_speed_infrastructure_factor = 0.30
-	       consumer_goods_factor = -0.05
+	       consumer_goods_factor=-0.15
             }
         }
 	SAR_chickens_for_all = {
@@ -531,7 +531,7 @@ SAR_Bankrupt2 = {
         }
 
        SAR_Proffesionalism_idea = {
-            picture = Army_prop
+            picture = professional_army
 
             allowed = {
                 tag = SAR
@@ -764,7 +764,7 @@ SAR_Bankrupt2 = {
             removal_cost = -1
 
             modifier = {
-	            consumer_goods_factor = -0.05                
+	            consumer_goods_factor=-0.15                
 			}
 		}
  
@@ -793,5 +793,46 @@ SAR_Bankrupt2 = {
 	            weekly_manpower = 500               
 			}
 		}
+	SAR_fight_for_land = {
+            picture = adkins_klan
+			
+			allowed = {
+				tag = SAR
+			}
+			
+			available = {
+
+			}
+			
+			cancel = {
+
+			}
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+         ##    #  army_core_defence_factor = 0.10           
+		#	
+
+  targeted_modifier = {
+                tag = SLA
+                defense_bonus_against = 0.10
+                attack_bonus_against = 0.05
+            
+            }
+
+
+  targeted_modifier = {
+                tag = SOK 
+                defense_bonus_against = 0.10
+                attack_bonus_against = 0.05
+            
+            }
+		}
+
+
    }
 }

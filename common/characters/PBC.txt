@@ -40,14 +40,47 @@ characters={
 			id=-1
 		}
 	}
+	PBC_Andrew_Roddan={
+		name="Andrew Roddan"
+		portraits={
+			civilian={
+				large="gfx/leaders/PBC/Portrait_Andrew_Roddan.dds"
+			}
+		}
+		country_leader={
+			ideology= anarchism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	###HAIDA
+	PBC_david_morgan={
+		name="David Morgan"
+		portraits={
+			civilian={
+				large="gfx/leaders/PBC/PBC_potrait_leader_david_morgan.dds"
+			}
+		}
+		##LATER IN TREE/ WILL BE GIVEN VIA EVENT
+		###EDUCATOR
+	}
+	PBC_andrew_hope ={
+		name="Andrew P. Hope"
+		portraits={
+			civilian={
+				large="gfx/leaders/PBC/PBC_potrait_leader_andrew_hope.dds"
+			}
+		}
+		##LATER IN TREE/ WILL BE GIVEN VIA EVENT
+		###BOAT BUILDER
+	}
+	#####ARMY
 	PBC_alexander_ronald_okeden={
 		name="Alexander, Ronald Okeden"
 		portraits={
 			army={
-				small=""
-			}
-			army={
 				large="gfx/leaders/PBC/portrait_general_Ronald_Okeden_Alexander.dds"
+				# TODO: small
 			}
 		}
 		corps_commander={
@@ -64,10 +97,8 @@ characters={
 		name="George Pearkes"
 		portraits={
 			army={
-				small=""
-			}
-			army={
 				large="gfx/leaders/PBC/Portrait_general_George_Pearkes.dds"
+				# TODO: small
 			}
 		}
 		corps_commander={
@@ -84,10 +115,8 @@ characters={
 		name="Alex Von Rambler"
 		portraits={
 			army={
-				small=""
-			}
-			army={
 				large="gfx/leaders/PBC/Portrait_general_alex_von_rambler.dds"
+				# TODO: small
 			}
 		}
 		corps_commander={
@@ -104,10 +133,8 @@ characters={
 		name="George Kitching"
 		portraits={
 			army={
-				small=""
-			}
-			army={
 				large="gfx/leaders/PBC/Portrait_general_George_Kitching.dds"
+				# TODO: small
 			}
 		}
 		corps_commander={

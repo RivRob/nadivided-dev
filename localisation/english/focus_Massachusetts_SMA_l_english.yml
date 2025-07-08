@@ -3,14 +3,14 @@
     SMA_mitresearchprojects_desc:0 ""
     SMA_hiremitalumni:0 "Hire MIT Alumni"
     SMA_hiremitalumni_desc:0 ""
-    SMA_inmemoriumoftheteaparty:0 "In Memorium of the Tea Party"
+    SMA_inmemoriumoftheteaparty:0 "In Memoriam of the Tea Party"
     SMA_inmemoriumoftheteaparty_desc:0 "The Boston Tea Party was a political and mercantile protest by the Sons of Liberty in Boston, Massachusetts, on December 16, 1773. American Patriots strongly opposed the taxes in the Townshend Act as a violation of their rights. Demonstrators, some disguised as Native Americans, destroyed an entire shipment of tea sent by the East India Company."
     SMA_highwayupgrades:0 "Highway Upgrades"
     SMA_highwayupgrades_desc:0 ""
     SMA_subsidizespringfieldarmory:0 "Subsidize Springfield Armory"
     SMA_subsidizespringfieldarmory_desc:0 "The Springfield Armory, located in the city of Springfield, SMA, was the primary center for the manufacture of United States military firearms from 1777 until its closing in 1968. It was the first federal armory and one of the first factories in the United States dedicated to the manufacture of weapons."
     SMA_expandbostonharbor:0 "Expand Boston Harbor"
-    SMA_expandbostonharbor_desc:0 ""
+    SMA_expandbostonharbor_desc:0 "Since its discovery to Europeans in 1614, Boston Harbor has been an integral part of the economy and defense of Massachusetts. Early on, it was recognized as one of the finest natural harbors in the world due to its depth and natural defense from the Atlantic as a result of the many islands that dot the harbor. It was also favored due to its access to the local rivers which made travel from the harbor deeper into the industrial cities of Massachusetts far easier. \nIt was the site of the Boston Tea Party, as by 1660, almost all imports came to the greater Boston area and the New England coast through the waters of Boston Harbor."
     SMA_servicebasedeconomy:0 "Service-Based Economy"
     SMA_servicebasedeconomy_desc:0 ""
     SMA_m1garandriflecontract:0 "M1 "Garand" Rifle Contract"
@@ -32,11 +32,11 @@
     SMA_fortsofboston:0 "Forts of Boston"
     SMA_fortsofboston_desc:0 ""
     SMA_revitalizethenewbedfordforts:0 "Revitalize the New Bedford Forts"
-    SMA_revitalizethenewbedfordforts_desc:0 ""
+    SMA_revitalizethenewbedfordforts_desc:0 "Fort Phoenix, located at the entrance to the Fairhaven-New Bedford harbor, was originally built in 1775 without a name. Just off the fort, in Buzzards Bay, was the first naval engagement of the American Revolution, the Battle off Fairhaven on 14 May 1775. On 5–6 September 1778, the fort was destroyed by the British when they raided the harbor. A force under Major Israel Fearing drove off the British, both at the fort and when they attempted an attack on the town. In 1784 it was given the name "Fort Phoenix" after the mythical bird that rose from its own ashes. \nThere is also a smaller cannon at the fort which was captured by the Continental Marines during the raid on Nassau in the Bahamas in 1776, the first amphibious landing on foreign soil by United States Marines."
     SMA_nuclear_ambitions:0 "Nuclear Ambitions"
     
     SMA_new_england_empire:0 "§YThe New England Empire§!"
-    SMA_imperial_lands: "Imperial Lands" 
+    SMA_imperial_lands:0 "Imperial Lands" 
 
     SMA_Elections_Will_Continue:0 "Elections Will Continue"
     SMA_Elections_Will_Continue_desc:0 ""
@@ -208,7 +208,7 @@
     SMA_Promote_Anti_Fascist_Fervor_desc:0 ""
     SMA_Settle_Bristol_Issue:0 "Settle Bristol Issue"
     SMA_Settle_Bristol_Issue_desc:0 ""
-    SMA_Free_Maine:0 "Free Maine"
+    SMA_Free_Maine:0 "Free Our Lost Brothers in Maine"
     SMA_Free_Maine_desc:0 ""
     SMA_Liberate_Connecticut:0 "Liberate Connecticut"
     SMA_Liberate_Connecticut_desc:0 ""
@@ -258,7 +258,7 @@
     SMA_Make_Promises_to_the_Generals_desc:0 ""
     SMA_Funding_Our_military_industries:0 "Funding Our Military Industries"
     SMA_Funding_Our_military_industries_desc:0 ""
-    SMA_Introduce_Slave_Labour_for_Prisoners:0 "Introduce Slave Labor for Prisoners"
+    SMA_Introduce_Slave_Labour_for_Prisoners:0 "Prisoner Labor"
     SMA_Introduce_Slave_Labour_for_Prisoners_desc:0 ""
     SMA_Modernization_of_our_tactics:0 "Modernization of Our Tactics"
     SMA_Modernization_of_our_tactics_desc:0 ""
@@ -284,8 +284,8 @@
     SMA_Secure_Connecticut_River_Valley_desc:0 ""
     SMA_Unification_with_New_Hampshire:0 "Unification With New Hampshire"
     SMA_Unification_with_New_Hampshire_desc:0 ""
-    SMA_Unification_with_Maine:0 "Unification With Maine"
-    SMA_Unification_with_Maine_desc:0 ""
+    SMA_Unification_with_Maine:0 "Reunification With Maine"
+    SMA_Unification_with_Maine_desc:0 "We only lost our old northern territory because of a state admittance over a century ago. Now that we are no longer beholden to old federal laws, we can take back what is rightfully ours."
     SMA_Strict_Resources_Consumption_Act:0 "Strict Resources Consumption Act"
     SMA_Strict_Resources_Consumption_Act_desc:0 ""
     SMA_Fueling_our_war_industries:0 "Fueling Our War Industries"
@@ -416,4 +416,37 @@
         
     SMA_Irish_American_Supremacy:0 "Irish American Supremacy"
     SMA_Irish_American_Supremacy_desc:0 ""
+
+    SMA_lay_down_the_uss_massachusetts:0"Lay Down the USS Massachusetts"
+    SMA_lay_down_the_uss_massachusetts_desc:0 "Lay Down the USS Massachusetts"
+
+    SMA_naval_programee:0 "A New Naval Program"
+    SMA_naval_programee_desc:0 "A New Naval Program"
+
+    SMA_repair_facilities:0 "Increase Repair Cabilities"
+    SMA_repair_facilities_desc:0 "Increase Repair Cabilities"
     
+    SMA_expand_the_repair_yards:0 "Expanded Repair Yards"
+
+    SMA_quabbin_reservoir_halted:0 "Quabbin Reservoir Halted"
+    
+    SMA_MIT:0 "MIT"
+
+    SMA_improve_port_boston:0 "Set §YNaval Base§! to level §Y10§! in [5.GetName]"
+ 
+    New_England_Road_Markings:0 "New England Road Markings"
+
+    New_England_Road_Markings_NE_War:0 "New-Englander War"
+
+    SMA_Second_Era:0 "Second Era"
+    SMA_Second_Era_desc:0 "The second era of [SMA.getName] has begun. The time to build a modern military, government, and empire is now. We must prepare for the future, and defend our interests."
+
+    SMA_Modern_Governance:0 "Modern Governance"
+    SMA_Modern_Governance_desc:0 "
+    SMA_Modern_Governance_tt:0 "§C§Y[SMA.getName]§! will hold an §YElection§!§!"
+
+    SMA_The_New_Northeast:0 "The New Northeast"
+    SMA_The_New_Northeast_desc:0 ""
+
+    SMA_By_The_Sword:0 "By The Sword"
+    SMA_By_The_Sword_desc:0 "By The Sword"
