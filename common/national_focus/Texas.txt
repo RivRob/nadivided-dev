@@ -12547,6 +12547,7 @@ focus_tree = {
 				idea = STX_Tycoon_Question
 				days = 21
 			}
+			remove_ideas = STX_Texas_pacifists
 		}
 	}
 	focus = {
