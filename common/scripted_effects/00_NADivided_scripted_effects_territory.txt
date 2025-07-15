@@ -1021,6 +1021,7 @@ core_south_dakota = {
 	662 = { add_core_of = PREV }
 	663 = { add_core_of = PREV }
 	664 = { add_core_of = PREV }
+	749 = { add_core_of = PREV }	
 	843 = { add_core_of = PREV }
 	844 = { add_core_of = PREV }
 	845 = { add_core_of = PREV }
