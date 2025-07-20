@@ -1321,7 +1321,7 @@ focus_tree = {
 			add_political_power = -65
 			add_popularity = {
 				ideology = communism
-				popularity = 0.3
+				popularity = -0.3
 			}
 			add_named_threat = {
 				threat = 4
