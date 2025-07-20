@@ -267,7 +267,11 @@ focus_tree = {
 		
 		available_if_capitulated = no
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		available = { controls_missouri_trigger = yes }
+=======
+		available = { }
+>>>>>>> Stashed changes
 =======
 		available = { }
 >>>>>>> Stashed changes
