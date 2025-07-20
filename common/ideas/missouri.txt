@@ -76,8 +76,8 @@ SMO_Dustbowl_Economy = {
             removal_cost = -1
 
             modifier = {
-				production_speed_buildings_factor = -0.03
-				industrial_capacity_factory = -0.05
+				production_speed_buildings_factor = -0.05
+				industrial_capacity_factory = -0.10
                 conscription = -0.02
 				stability_factor = -0.15
 				

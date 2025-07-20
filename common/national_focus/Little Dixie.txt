@@ -13,13 +13,13 @@ focus_tree = {
 	default = no
 
 	continuous_focus_position = { x = 50 y = 1800 }
-
+	# OLD WAYS
 	focus = {
 		id = LMO_dixie_constitution
 		icon = GFX_focus_LMO_kermits_coop
-		x = 10
+		x = 11
 		y = 1
-		cost = 5
+		cost = 7
 
 		search_filters = {   }
 		
@@ -32,18 +32,18 @@ focus_tree = {
 		}
 
 		completion_reward = {
-            add_timed_idea = {
-                idea = LMO_focus_dixie_constitution
-                days = 365
-            }
+            #add_timed_idea = {
+                #idea = LMO_focus_dixie_constitution
+                #days = 365
+            #}
 		}
 	}
 	focus = {
 		id = LMO_reaffirm_political_standards
 		icon = GFX_focus_LMO_kermits_coop
-		x = 10
+		x = 11
 		y = 2
-		cost = 7.2
+		cost = 5
         prerequisite = { focus = LMO_dixie_constitution }
 
 		search_filters = {   }
@@ -57,7 +57,222 @@ focus_tree = {
 		}
 
 		completion_reward = {
-            country_event = my_event.1
+            
+		}
+	}
+	focus = {
+		id = LMO_restore_the_old
+		icon = GFX_focus_LMO_kermits_coop
+		x = 10
+		y = 3
+		cost = 10
+		prerequisite = { focus = LMO_reaffirm_political_standards }
+		mutually_exclusive = { focus = LMO_cooperation_with_kkk }
+		search_filters = {   }
+
+		
+		available_if_capitulated = no
+		available = {}
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = LMO_reteach_confederate_ideas
+		icon = GFX_focus_LMO_kermits_coop
+		x = 5
+		y = 4
+		cost = 5
+		prerequisite = { focus = LMO_restore_the_old }
+		search_filters = {   }
+
+		
+		available_if_capitulated = no
+		available = {}
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+			add_timed_idea = {
+    			idea = LMO_reteach_confederate_ideas_1
+    			days = 365
+			}
+		}
+	}
+	focus = {
+		id = LMO_destroy_kkk
+		icon = GFX_focus_LMO_kermits_coop
+		x = 5
+		y = 5
+		cost = 7
+		prerequisite = { focus = LMO_reteach_confederate_ideas }
+		search_filters = {   }
+
+		
+		available_if_capitulated = no
+		available = {}
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+			country_event = lil.1
+		}
+	}
+	focus = {
+		id = LMO_strengthen_confederate_army
+		icon = GFX_focus_LMO_kermits_coop
+		x = 3
+		y = 6
+		cost = 7
+		prerequisite = { focus = LMO_destroy_kkk }
+		search_filters = {   }
+
+		
+		available_if_capitulated = no
+		available = {}
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+			#decision
+		}
+	}
+	focus = {
+		id = LMO_gain_support_of_confederate_veterans
+		icon = GFX_focus_LMO_kermits_coop
+		x = 3
+		y = 7
+		cost = 5
+		prerequisite = { focus = LMO_strengthen_confederate_army }
+		search_filters = {   }
+
+		
+		available_if_capitulated = no
+		available = {}
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+			# idea to strengthen the dixie politcally and army
+		}
+	}
+
+	# KKK
+
+	focus = {
+		id = LMO_cooperation_with_kkk
+		icon = GFX_focus_LMO_kermits_coop
+		x = 12
+		y = 3
+		cost = 10
+		prerequisite = { focus = LMO_reaffirm_political_standards }
+		mutually_exclusive = { focus = LMO_restore_the_old }
+		search_filters = {   }
+
+		
+		available_if_capitulated = no
+		available = {}
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = LMO_learn_from_alabama
+		icon = GFX_focus_LMO_kermits_coop
+		x = 17
+		y = 4
+		cost = 10
+		prerequisite = { focus = LMO_cooperation_with_kkk }
+		search_filters = {   }
+
+		
+		available_if_capitulated = no
+		available = {}
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	# oh i am conquesting it..
+
+	focus = {
+		id = LMO_attention_to_missouri
+		icon = GFX_focus_LMO_kermits_coop
+		x = 11
+		y = 5
+		cost = 5
+		prerequisite = { 
+			OR = { 
+				focus = LMO_reteach_confederate_ideas
+				focus = LMO_learn_from_alabama
+			}
+		}
+		search_filters = {   }
+
+		
+		available_if_capitulated = no
+		available = {}
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+			start_border_war = {
+				change_state_after_war = no
+				attacker = {
+					state = 684
+					num_provinces = 3
+					on_win = lil.2
+					on_lose = lil.3
+					on_cancel = lil.4
+					modifier = 0
+					dig_in_factor = 0
+					terrain_factor = 1
+				}
+				defender = {
+					state = 60
+					num_provinces = 3
+					on_win = lil.2
+					on_lose = lil.3
+					on_cancel = lil.4
+				}
+			}
+		}
+	}
+	focus = {
+		id = LMO_intergrate_missouri
+		icon = GFX_focus_LMO_kermits_coop
+		x = 10
+		y = 6
+		cost = 10
+		prerequisite = { focus = LMO_attention_to_missouri }
+		search_filters = {   }
+
+		
+		available_if_capitulated = no
+		available = { controls_missouri_trigger = yes }
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+			core_missouri
 		}
 	}
 }

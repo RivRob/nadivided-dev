@@ -1,5 +1,20 @@
 ﻿division_template = {
-	name = "Bushwackers"
+	name = "Royal Riders of The Klan"
+
+	division_names_group = USA_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+	priority = 3
+}
+division_template = {
+	name = "Southern Consolidation Guard"
 
 	division_names_group = USA_INF_01
 
@@ -13,21 +28,7 @@
 		infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
 		infantry = { x = 2 y = 2 }
- 		infantry = { x = 3 y = 0 }
-	}
-	priority = 1
-}
-
-division_template = {
-	name = "Royal Riders of The Klan"
-
-	division_names_group = USA_CAV_01
-
-	regiments = {
-		cavalry = { x = 0 y = 0 }
-		cavalry = { x = 0 y = 1 }
-		cavalry = { x = 0 y = 2 }
-		cavalry = { x = 1 y = 0 }
+		infantry = { x = 3 y = 0 }
 	}
 	priority = 3
 } 
@@ -38,10 +39,33 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
+		location = 1959
+		division_template = "Southern Consolidation Guard"
+		#start_experience_factor = 0.1
+		#start_equipment_factor = 0.5
+		#start_manpower_factor = 0.75
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
 		location = 1898
-		division_template = "Bushwackers"
-		start_experience_factor = 0.5
-		start_equipment_factor = 0.1
+		division_template = "Southern Consolidation Guard"
+		#start_experience_factor = 0.1
+		#start_equipment_factor = 0.5
+		#start_manpower_factor = 0.75
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1926
+		division_template = "Southern Consolidation Guard"
+		#start_experience_factor = 0.1
+		#start_equipment_factor = 0.5
+		#start_manpower_factor = 0.75
 	}
 	division = {
 		division_name = {
@@ -50,28 +74,9 @@ units = {
 		}
 		location = 1898
 		division_template = "Royal Riders of The Klan"
-		start_experience_factor = 0.8
-		start_equipment_factor = 0.1
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 1959
-		division_template = "Bushwackers"
-		start_experience_factor = 0.0
-		start_equipment_factor = 0.3
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 1926
-		division_template = "Bushwackers"
-		start_experience_factor = 0.0
-		start_equipment_factor = 0.4
+		#start_experience_factor = 0.9
+		#start_equipment_factor = 1.0
+		#start_manpower_factor = 1.0
 	}
 } 
 ### Starting Equipment ###
@@ -82,7 +87,7 @@ instant_effect = {
 			creator = "LMO"
 		}
 		requested_factories = 1
-		progress = 0.28
+		progress = 0.50
 		efficiency = 100
 	}
 }

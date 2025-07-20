@@ -34,7 +34,7 @@ ideas = {
 
 ########################################################
 #
-LMO_lil_dixie = {
+LMO_confederacy_1 = {
             picture = confederatecy_reborn
 			
 			allowed = {
@@ -56,6 +56,73 @@ LMO_lil_dixie = {
 				army_core_defence_factor = 0.15
 			}
 		}
+LMO_confederacy_2 = {
+            picture = confederatecy_reborn
+			
+			allowed = {
+				tag = LMO
+			}
+			
+			available = {
+
+			}
+			
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+				political_power_gain = 0.1
+				army_core_defence_factor = 0.1
+				army_core_attack_factor = 0.05
+			}
+		}
+LMO_confederacy_3 = {
+            picture = confederatecy_reborn
+			
+			allowed = {
+				tag = LMO
+			}
+			
+			available = {
+
+			}
+			
+            allowed_civil_war = {
+                always = yes
+            }
+
+            removal_cost = -1
+
+            modifier = {
+				political_power_gain = 0.05
+				army_core_attack_factor = 0.2
+			}
+		}
+
+LMO_reteach_confederate_ideas_1 = {
+	picture =
+
+	allowed = {
+		tag = LMO
+	}
+
+	available = {}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+
+	modifier = {
+		stability_weekly_factor = -0.001
+		fascism_drift = 0.15
+		political_power_gain = -0.1
+	}
+}
 #
 #
 	}
