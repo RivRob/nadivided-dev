@@ -255,32 +255,4 @@ focus_tree = {
 			}
 		}
 	}
-	focus = {
-		id = LMO_intergrate_missouri
-		icon = GFX_focus_LMO_kermits_coop
-		x = 10
-		y = 6
-		cost = 10
-		prerequisite = { focus = LMO_attention_to_missouri }
-		search_filters = {   }
-
-		
-		available_if_capitulated = no
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-		available = { controls_missouri_trigger = yes }
-=======
-		available = { }
->>>>>>> Stashed changes
-=======
-		available = { }
->>>>>>> Stashed changes
-		ai_will_do = {
-			factor = 5
-		}
-
-		completion_reward = {
-			core_missouri = yes
-		}
-	}
 }
