@@ -266,7 +266,11 @@ focus_tree = {
 
 		
 		available_if_capitulated = no
+<<<<<<< Updated upstream
 		available = { controls_missouri_trigger = yes }
+=======
+		available = { }
+>>>>>>> Stashed changes
 		ai_will_do = {
 			factor = 5
 		}
