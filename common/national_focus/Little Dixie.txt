@@ -1,3 +1,24 @@
+# TEMPLATE
+
+focus = {
+	id =
+	icon =
+	x =
+	y =
+	cost =
+	
+	search_filters = {}
+
+	available = {}
+	available_if_capitulated = no
+
+	ai_will_do = { factor = 0 }
+
+	completion_reward = {}
+
+}
+
+
 focus_tree = {
 	id = little_dixie
 	
@@ -254,5 +275,24 @@ focus_tree = {
 				}
 			}
 		}
+	}
+	focus = {
+		id = LMO_intergrate_missouri
+		icon =
+		x = 10
+		y = 6
+		cost = 10
+	
+		search_filters = {}
+
+		available = {}
+		available_if_capitulated = no
+
+		ai_will_do = { factor = 0 }
+
+		completion_reward = {
+			core_missouri = yes
+		}
+
 	}
 }
